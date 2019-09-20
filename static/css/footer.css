@@ -1,0 +1,62 @@
+.footer {
+  width: 100%;
+  height: 260px;
+  background-color: #0a1e33;
+  padding-top: 44px;
+}
+.footer .footer-w {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer .footer-w > div {
+  float: left;
+  color: #fff;
+}
+.footer .footer-w > div dt {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.footer .footer-w > div dd {
+  margin-bottom: 14px;
+}
+.footer .footer-w > div dd a {
+  color: #888d93;
+  font-size: 12px;
+}
+.footer .footer-w > div p {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.footer .footer-w .textA {
+  margin-right: 204px;
+}
+.footer .footer-w .textB {
+  margin-right: 400px;
+  margin-left: 100px;
+}
+.footer .footer-w .textC {
+  margin-right: 104px;
+}
+.footer .footer-w .textC p:first-child {
+  margin-bottom: 30px;
+}
+.footer .footer-w .textD {
+  position: relative;
+}
+.footer .footer-w .textD p:nth-child(1) {
+  color: #888d93;
+  margin-bottom: 30px;
+}
+.footer .footer-w .textD a {
+  color: #fff;
+  font-size: 12px;
+}
+.footer .footer-w .textD .place {
+  position: absolute;
+  top: 0;
+  left: -18px;
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  background: url("../images/ico_location.png");
+}

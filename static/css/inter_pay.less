@@ -1,0 +1,447 @@
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+
+#canv {
+  position: relative;
+  top: 60px;
+  width: 1900px;
+  height:900px;
+}
+
+// 顶部banner
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  .banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 580px;
+    background: url("../images/inter_pay/banner.png") center no-repeat;
+  }
+  .banner-text {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    h3 {
+      position: absolute;
+      top: 350px;
+      left: 50%;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      margin-bottom: 22px;
+      font-size: 36px;
+      opacity: 0;
+
+      .banner-icon {
+        display: inline-block;
+        width: 40px;
+        height: 35px;
+        background: url("../images/icon2.png") -46px -2px no-repeat;
+        vertical-align: bottom;
+        margin-right: 18px;
+      }
+    }
+    p {
+      position: absolute;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      font-size: 14px;
+      line-height: 24px;
+      opacity: 0;
+    }
+    p.i-banner-briefA {
+      top: 580px;
+      left: 50%;
+    }
+    p.i-banner-briefB {
+      top: 610px;
+      left: 50%;
+    }
+  }
+}
+
+// 多样化商业合作模式
+.cooperation-model {
+  position: relative;
+  width: 100%;
+  height: 654px;
+  background-color: #fff;
+  padding-top: 100px;
+  text-align: center;
+  .container-main {
+    width: 100%;
+  }
+  .cooperation-title {
+    h2 {
+      font-size: 34px;
+    }
+    .cooperation-line {
+      margin: 0 auto;
+      display: block;
+      width: 555px;
+      height: 13px;
+      background: url("../images/icon.png") center no-repeat;
+      background-position: -2px -219px;
+      background-size: 559px 235px;
+      margin-top: 24px;
+    }
+  }
+  .cooperation-box {
+    margin-top: 40px;
+    text-align: center;
+    .cooperation {
+      height: 346px;
+      transition: all 0.6s;
+      -ms-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      -webkit-transition: all 0.6s;
+      -moz-transition: all 0.6s;
+      &:hover {
+        box-shadow: 0 8px 26px 4px rgba(170, 188, 213, 0.2);
+        -webkit-box-shadow: 0 8px 26px 4px rgba(170, 188, 213, 0.2);
+        -moz-box-shadow: 0 8px 26px 4px rgba(170, 188, 213, 0.2);
+        -o-box-shadow: 0 8px 26px 4px rgba(170, 188, 213, 0.2);
+        -ms-box-shadow: 0 8px 26px 4px rgba(170, 188, 213, 0.2);
+        transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+      }
+      h4 {
+        margin: 18px 0 10px 0;
+        color: #666;
+      }
+      p {
+        line-height: 26px;
+        color: #999;
+      }
+      .icon-service {
+        display: inline-block;
+        width: 66px;
+        height: 68px;
+        margin-top: 66px;
+        background: url("../images/icon.png") center no-repeat;
+        background-position: -2px -52px;
+        background-size: 559px 235px;
+      }
+      .icon-agent {
+        display: inline-block;
+        width: 66px;
+        height: 68px;
+        margin-top: 66px;
+        background: url("../images/icon.png") center no-repeat;
+        background-position: -72px -52px;
+        background-size: 559px 235px;
+      }
+      .icon-bank-cooperation {
+        display: inline-block;
+        width: 66px;
+        height: 68px;
+        margin-top: 66px;
+        background: url("../images/icon.png") center no-repeat;
+        background-position: -142px -52px;
+        background-size: 559px 235px;
+      }
+    }
+  }
+}
+
+// 定制化商户管理平台
+.management {
+  width: 100%;
+  height: 806px;
+  background: url("../images/index_management2.png") center no-repeat;
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+
+  .management-title {
+    h2 {
+      font-size: 34px;
+      font-weight: normal;
+      margin-bottom: 18px;
+      color:#000;
+      visibility: hidden;
+    }
+  }
+  .management-list {
+    ul {
+      position: relative;
+      li {
+        position: absolute;
+        background-color: #3b97ff;
+        border-radius: 50px;
+        opacity: 0;
+        // &:before {
+        //   content: "";
+        //   display: inline-block;
+        //   position: absolute;
+        //   bottom: -20px;
+        //   left: 22px;
+        //   width: 0;
+        //   height: 0;
+        //   border-top: 12px solid #3b97ff;
+        //   border-right: 12px solid transparent;
+        //   border-bottom: 12px solid transparent;
+        //   border-left: 12px solid transparent;
+        // }
+        i {
+          display: inline-block;
+          position: absolute;
+          top: 50%;
+          left: 16px;
+          transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          background: url("../images/icon.png") no-repeat;
+          background-size: 559px 235px;
+        }
+        &:nth-child(1) {
+          top: 168px;
+          right: -300px;
+          width: 326px;
+          height: 50px;
+          i {
+            top: 56%;
+            width: 22px;
+            height: 22px;
+            background-position: -2px -125px;
+          }
+        }
+        &:nth-child(2) {
+          top: 270px;
+          right: -180px;
+          width: 214px;
+          height: 50px;
+          i {
+            width: 20px;
+            height: 22px;
+            background-position: -29px -123px;
+          }
+        }
+        &:nth-child(3) {
+          top: 368px;
+          right: -130px;
+          width: 236px;
+          height: 50px;
+          i {
+            width: 18px;
+            height: 22px;
+            background-position: -56px -123px;
+          }
+        }
+        &:nth-child(4) {
+          top: 468px;
+          right: -190px;
+          width: 188px;
+          height: 50px;
+          i {
+            width: 22px;
+            height: 22px;
+            background-position: -80px -123px;
+          }
+        }
+        &:nth-child(5) {
+          top: 566px;
+          right: -220px;
+          width: 188px;
+          height: 50px;
+          i {
+            width: 20px;
+            height: 22px;
+            background-position: -107px -123px;
+          }
+        }
+        .management-text {
+          font-size: 16px;
+          line-height: 50px;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+// 专业化产品与服务
+// .pro-ser {
+//   position: relative;
+//   width: 100%;
+//   height: 672px;
+//   background-color: #fff;
+//   padding-top: 100px;
+//   .pro-ser-title {
+//     h2 {
+//       text-align: center;
+//       font-size: 34px;
+//     }
+//     .pro-ser-line {
+//       margin: 0 auto;
+//       display: block;
+//       width: 555px;
+//       height: 13px;
+//       background: url("../images/icon.png") center no-repeat;
+//       background-position: -2px -219px;
+//       margin-top: 24px;
+//     }
+//   }
+//   .pro-ser-box {
+//     padding-left: 120px;
+//     margin-top: 74px;
+//     .media {
+//       margin-top: 0;
+//       line-height: 0.9;
+//     }
+//     .media-body {
+//     }
+//     > div {
+//       margin-bottom: 80px;
+//     }
+//     .pro-ser-img {
+//       > span {
+//         display: inline-block;
+//         width: 68px;
+//         height: 68px;
+//         background: url("../images/icon.png") no-repeat;
+//         background-size: 559px 235px;
+//       }
+//     }
+//     .pro-ser-posA > span {
+//       background-position: -2px -148px;
+//     }
+//     .pro-ser-posB > span {
+//       background-position: -70px -149px;
+//     }
+//     .pro-ser-posC > span {
+//       background-position: -141px -148px;
+//     }
+//     .pro-ser-posD > span {
+//       background-position: -210px -148px;
+//     }
+//     .pro-ser-body {
+//       h4 {
+//         color: #4e8cee;
+//         font-size: 18px;
+//         margin-bottom: 14px;
+//       }
+//       p {
+//         color: #999;
+//         font-size: 14px;
+//         margin-bottom: 8px;
+//         &:last-child {
+//           margin-bottom: 0;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// 功能服务
+.func-ser {
+  width: 100%;
+  height: 880px;
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  .func-ser-title {
+    h2 {
+      font-size: 34px;
+    }
+    .func-ser-line {
+      margin: 0 auto;
+      display: block;
+      width: 555px;
+      height: 13px;
+      background: url("../images/icon.png") center no-repeat;
+      background-position: -2px -219px;
+      background-size: 559px 235px;
+      margin-top: 24px;
+    }
+  }
+
+  .func-ser-content {
+    margin-top: 106px;
+    text-align: center;
+    .func-ser-box {
+      height: 300px;
+      padding: 0;
+      h4 {
+        font-size: 24px;
+        margin: 20px 0 12px 0;
+        color: #000;
+      }
+      p {
+        color: #999;
+        line-height: 24px;
+      }
+      span {
+        display: inline-block;
+        background: url("../images/icon2.png") center no-repeat;
+        background-size: 945px 288px;
+      }
+      .icon-mobile-pay {
+        width: 21px;
+        height: 34px;
+        background-position: -10px -211px;
+      }
+      .icon-money-close {
+        width: 26px;
+        height: 34px;
+        background-position: -47px -211px;
+      }
+      .icon-product-center {
+        width: 30px;
+        height: 34px;
+        background-position: -85px -211px;
+      }
+      .icon-data-center {
+        width: 34px;
+        height: 34px;
+        background-position: -123px -213px;
+      }
+      .icon-commercial {
+        width: 34px;
+        height: 34px;
+        background-position: -4px -251px;
+      }
+      .icon-user-manager {
+        width: 36px;
+        height: 34px;
+        background-position: -163px -251px;
+      }
+      .icon-profit-manager {
+        width: 34px;
+        height: 34px;
+        background-position: -203px -251px;
+      }
+      .icon-deal-manager {
+        width: 34px;
+        height: 34px;
+        background-position: -123px -251px;
+      }
+    }
+  }
+}

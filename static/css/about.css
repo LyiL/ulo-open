@@ -1,0 +1,115 @@
+.main {
+  width: 100%;
+  background-color: #FAFAFB;
+  padding: 20px 0;
+}
+.main .content-wrap {
+  width: 1200px;
+  height: 710px;
+}
+.main .content-wrap .sidebar {
+  float: left;
+  width: 220px;
+  background-color: #fff;
+}
+.main .content-wrap .sidebar ul {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+.main .content-wrap .sidebar ul li {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+}
+.main .content-wrap .sidebar ul li:before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 8px;
+  width: 3px;
+  height: 28px;
+}
+.main .content-wrap .sidebar ul li:hover:before {
+  background-color: #3B97FF;
+}
+.main .content-wrap .sidebar ul .selected {
+  color: #fff;
+  background-color: #3b97ff;
+}
+.main .content-wrap .content-outer {
+  position: relative;
+  float: right;
+  width: 960px;
+  min-height: 710px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+.main .content-wrap .content-outer .content-detail .content-title h3 {
+  width: 100%;
+  height: 68px;
+  line-height: 68px;
+  border-bottom: 1px dashed #E1E7ED;
+  font-size: 24px;
+  padding-left: 24px;
+  color: #333;
+  font-family: "Microsoft YaHei";
+}
+.main .content-wrap .content-outer .content-detail .content-body {
+  padding: 36px 30px 44px 30px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-company h4 {
+  font-size: 18px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-company p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 8px;
+  margin-bottom: 50px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-company span {
+  font-size: 12px;
+  color: #999;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-intro {
+  margin-bottom: 40px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-intro p {
+  font-size: 14px;
+  color: #666;
+  line-height: 26px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .intro p {
+  text-indent: 2em;
+  font-size: 14px;
+  color: #333;
+}
+.main .content-wrap .content-outer .content-detail .content-body .intro p:nth-child(1) {
+  padding: 30px 0;
+  line-height: 0;
+}
+.main .content-wrap .content-outer .content-detail .content-body .intro p:nth-child(2) {
+  margin-bottom: 30px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-contact p {
+  line-height: 20px;
+  color: #666;
+  font-size: 12px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-footer {
+  margin-top: 378px;
+}
+.main .content-wrap .content-outer .content-detail .content-body .content-footer p {
+  line-height: 24px;
+  color: #666;
+  font-size: 12px;
+}

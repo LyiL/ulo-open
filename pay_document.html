@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='./lib/bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='./static/css/normalize.css'>
+    <link rel='stylesheet' href='./static/css/footer.css'>
+    <link rel='stylesheet' href='./static/css/pay_document.css'>
+    <link rel='stylesheet' href='./static/css/default.css'>
+    <title>支付产品开发文档</title>
+    <meta name="Keywords" content="优络、优络科技、深圳市优络科技有限公司、银行系统服务商">
+    <meta name="Description" content="优络科技是国内领先的金融科技SaaS服务商。秉承提升金融效率、解决行业痛点的原则，为中信银行、东亚银行、华润银行等多家银行及金融机构，提供移动支付、黄金销售、信用卡营销等SaaS金融云服务">
+</head>
+
+<body>
+    <div id="Ulo-layout">
+        <div class="header">
+            <div class="w1200">
+                <div class="logo fl">
+                    <a href="./index.html"><img src="./static/images/logo.png"></a>
+                    <span>商户平台</span>
+                </div>
+                <div class="top-nav fr">
+                    <ul>
+                        <li><a href="./index.html">首页</a></li>
+                        <li>
+                            <a href="http://www.ulopay.com/product.html">产品中心</a>
+                        </li>
+                        <li><a href="./index.html">开放平台</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pay-box clearfix">
+                <ul id="pay-ul">
+                    <li class="pay-list">
+                        <div class="pay-mode pay-modeA">
+                            <a href="javascript:void(0)" class="PC-pay-click">
+                                <span class="pay-images pay-imagesA"></span>
+                                <p class="color3b97ff">PC网页支付</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pay-list">
+                        <div class="pay-mode">
+                            <a href="javascript:void(0)" class="mobile-pay-click">
+                                <span class="pay-images pay-imagesB"></span>
+                                <p>移动支付</p>
+                            </a>
+                        </div>
+                        <div class="mobile-pay">
+                            <p>
+                                <a href="javascript:void(0)" class="mobile-pay-click mobile-pay-H5">H5</a>
+                                <a href="javascript:void(0)" class="mobile-pay-public">微信公众号</a>
+                                <a href="javascript:void(0)" class="mobile-pay-APP">APP支付</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="pay-list">
+                        <div class="pay-mode">
+                            <a href="javascript:void(0)" class="card-pay">
+                                <span class="pay-images pay-imagesC"></span>
+                                <p>刷卡支付</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pay-list">
+                        <div class="pay-mode">
+                            <a href="javascript:void(0)" class="easy-pay-click">
+                                <span class="pay-images pay-imagesD"></span>
+                                <p>易码付</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pay-list">
+                        <div class="pay-mode">
+                            <a href="javascript:void(0)" class="take-terminal-click">
+                                <span class="pay-images pay-imagesE"></span>
+                                <p>收款终端</p>
+                            </a>
+                        </div>
+                        <div class="mobile-pay">
+                            <p>
+                                <a href="javascript:void(0)" class="take-PC-terminal take-terminal-click">即收PC收银台</a>
+                                <a href="javascript:void(0)" class="take-APP-terminal">即收APP</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="pay-list">
+                        <div class="pay-mode">
+                            <a href="javascript:void(0)" class="company-pay-click">
+                                <span class="pay-images pay-imagesF"></span>
+                                <p>企业付款</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="w1200">
+                <!-- PC网页支付 -->
+                <div class="content-wrap" id="PC-Pay" style="height:1385px; display:block">
+                    <div class="PCpay-demo">
+                        <div class="PCpay-demo-title">
+                            <h5>PC网页支付演示</h5>
+                        </div>
+                        <div class="PCpay-demo-bodyA" style="display:block">
+                            <div class="progress-box">
+                                <div class="line">
+                                    <div class="complete"></div>
+                                </div>
+                                <div class="progress-text">
+                                    <span>购物</span>
+                                    <span>提交订单</span>
+                                    <span>支付</span>
+                                    <span>完成</span>
+                                </div>
+                            </div>
+                            <div class="PCpay-demo-content">
+                                <div class="left">
+                                    <div></div>
+                                </div>
+                                <div class="right">
+                                    <h4>支付测试商品</h4>
+                                    <span>¥ 0.01</span>
+                                    <p>( 仅为DEMO体验支付流程，非真实购买 )</p>
+                                    <button class="common-btn" id="PCpay-BtnA">立即购买</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="PCpay-demo-bodyB" style="display:none">
+                            <div class="progress-box">
+                                <div class="line">
+                                    <div class="complete"></div>
+                                </div>
+                                <div class="progress-text">
+                                    <span>购物</span>
+                                    <span>提交订单</span>
+                                    <span>支付</span>
+                                    <span>完成</span>
+                                </div>
+                            </div>
+                            <div class="PCpay-demo-content">
+                                <div class="delivery-info">
+                                    <p>收货信息</p>
+                                    <div class="person-info">
+                                        <span>陈先生<i></i></span>
+                                        <span>广东省 深圳市 福田区 车公庙xxxx</span> &nbsp;&nbsp;&nbsp;
+                                        <span>15219981750</span>
+                                        <span>默认地址</span>
+                                    </div>
+                                </div>
+                                <div class="indent-info">
+                                    <p>订单信息</p>
+                                    <div>
+                                        <div class="goods-img"></div>
+                                        <div class="goods-detail">测试商品</div>
+                                        <div class="goods-price">
+                                            <p>¥0.01</p>
+                                            <p>x1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submit-indent">
+                                    <p>应付总额：<span>¥0.01</span></p>
+                                    <button class="common-btn" id="PCpay-BtnB">提交订单</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="PCpay-demo-bodyC" style="display:none">
+                            <div class="progress-box">
+                                <div class="line">
+                                    <div class="complete"></div>
+                                </div>
+                                <div class="progress-text">
+                                    <span>购物</span>
+                                    <span>提交订单</span>
+                                    <span>支付</span>
+                                    <span>完成</span>
+                                </div>
+                            </div>
+
+                            <div class="PCpay-demo-contentA" style="display:none">
+                                <p class="pay-time">请在 <span>14分59秒</span> 内完成支付，否则订单会自动取消。</p>
+                                <div class="pay-money">
+                                    <div class="pay-money-left fl">
+                                        <p>收款方：DEMO商户</p>
+                                        <p>订单编号：DEMOPAYNO123145688</p>
+                                    </div>
+                                    <div class="pay-money-right fr">
+                                        <p>支付金额：<span>0.01元</span></p>
+                                    </div>
+                                </div>
+                                <div class="pay-mode clearfix">
+                                    <p>选择支付方式</p>
+                                    <ul>
+                                        <li><span class="pay-logo-wx"></span>微信支付<i></i></li>
+                                        <li><span class="pay-logo-zfb"></span>支付宝</li>
+                                        <li><span class="pay-logo-qq"></span>QQ钱包</li>
+                                        <li><span class="pay-logo-bd"></span>百度钱包</li>
+                                        <li><span class="pay-logo-jd"></span>京东钱包</li>
+                                    </ul>
+                                </div>
+                                <div class="pay-btn">
+                                    <button class="common-btn" id="PCpay-BtnC1">立即支付</button>
+                                </div>
+                            </div>
+
+                            <div class="PCpay-demo-contentB" style="display:none">
+                                <div class="PC-left fl">
+                                    <p>PC端画面</p>
+                                    <div class="PC-clip">
+                                        <div class="content-top">
+                                            <h5>微信支付</h5>
+                                            <p>请在<span>59</span>秒内扫描二维码完成付款</p>
+                                        </div>
+                                        <div class="content-center clearfix">
+                                            <div class="content-c-l fl">
+                                                <div class="erweima-img"></div>
+                                                <div class="erweima-scan">
+                                                    <p>使用微信扫一扫</p>
+                                                    <p>扫描二维码付款</p>
+                                                </div>
+                                            </div>
+                                            <div class="content-c-r fr"></div>
+                                        </div>
+                                        <div class="content-bottom">
+                                            <p><span class="glyphicon glyphicon-menu-left"></span>&nbsp;更换其他支付方式</p>
+                                        </div>
+                                    </div>
+                                    <span>&nbsp;PC页面付款弹窗</span>
+                                    <br>
+                                    <span>用微信扫描二维码</span>
+                                </div>
+
+                                <div class="mobile-right fr">
+                                    <p>手机端画面</p>
+                                    <div class="mobile-clip">
+                                        <div class="left fl">
+                                            <div class="head">确认支付</div>
+                                            <div class="content">
+                                                <span>xx网页订单</span>
+                                                <p>¥0.01</p>
+                                                <div class="payee">
+                                                    <span class="fl">收款方</span>
+                                                    <span class="fr">xx.com</span>
+                                                </div>
+                                                <div class="prompt-pay">立即支付</div>
+                                            </div>
+                                        </div>
+                                        <div class="center fl">
+                                            <div class="head">确认支付</div>
+                                            <div class="content">
+                                                <span>xx网页订单</span>
+                                                <p>¥0.01</p>
+                                                <div class="payee">
+                                                    <span class="fl">收款方</span>
+                                                    <span class="fr">xx.com</span>
+                                                </div>
+                                                <button class="prompt-pay">立即支付</button>
+                                            </div>
+                                            <div class="mask">
+                                                <div class="popup">
+                                                    <div class="popup-head">
+                                                        <p>支付</p>
+                                                    </div>
+                                                    <div class="popup-payee">
+                                                        <p>xx.com</p>
+                                                        <p>¥0.01</p>
+                                                    </div>
+                                                    <div class="loose">
+                                                        <p class="fl">零钱</p>
+                                                    </div>
+                                                    <div class="affirm-pay">确认支付</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right fl">
+                                            <div class="right-t">
+                                                <span></span>
+                                                <p>支付成功</p>
+                                            </div>
+                                            <div class="right-c">
+                                                <span>xx.com</span>
+                                                <p>¥0.01</p>
+                                            </div>
+                                            <div class="right-b">
+                                                <div>完成</div>
+                                                <p>□&nbsp;关注xxx公众号</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span>手机扫描后，确认支付</span>
+                                    <span class="glyphicon glyphicon-menu-right"></span>
+                                    <span>微信支付</span>
+                                    <span class="glyphicon glyphicon-menu-right"></span>
+                                    <span>支付成功提示</span>
+                                </div>
+
+                                <div class="next-page clearfix">
+                                    <button id="PCpay-BtnC2">下一页<span class="glyphicon glyphicon-menu-right PCpay-BtnC2-right"></span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="PCpay-demo-bodyD" style="display:none">
+                            <div class="progress-box">
+                                <div class="line">
+                                    <div class="complete"></div>
+                                </div>
+                                <div class="progress-text">
+                                    <span>购物</span>
+                                    <span>提交订单</span>
+                                    <span>支付</span>
+                                    <span>完成</span>
+                                </div>
+                            </div>
+
+                            <div class="PCpay-demo-content">
+                                <div class="pay-success">
+                                    <img src="./static/images/pay_success.png" alt="">
+                                    <p>支付成功</p>
+                                </div>
+                                <div class="pay-money">
+                                    <div class="pay-money-left fl">
+                                        <p>收款方：DEMO商户</p>
+                                        <p>订单编号：DEMOPAYNO123145688</p>
+                                    </div>
+                                    <div class="pay-money-right fr">
+                                        <p>支付金额：<span>0.01元</span></p>
+                                    </div>
+                                </div>
+                                <div class="again clearfix">
+                                    <button class="common-btn" id="PCpay-BtnD">再来一次</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 文档说明 - 侧边栏 -->
+                    <div class="sidebar" id="sidebar">
+                        <div>PC网页支付</div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">文档说明</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">阅读对象</a></li>
+                                <li><a href="javascript:void(0)">版本说明</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">业务术语</a></div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">支付账户</a></div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">扫码支付</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">场景介绍</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">接口规则</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">协议规则</a></li>
+                                <li><a href="javascript:void(0)">参数规定</a></li>
+                                <li><a href="javascript:void(0)">安全规范</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">API列表</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">统一支付</a></li>
+                                <li><a href="javascript:void(0)">支付状态监测</a></li>
+                                <li><a href="javascript:void(0)">支付结果通知</a></li>
+                                <li><a href="javascript:void(0)">查询订单</a></li>
+                                <li><a href="javascript:void(0)">申请退款</a></li>
+                                <li><a href="javascript:void(0)">下载对账单</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">Demo下载</a></div>
+                    </div>
+                    <div class="content-outer">
+                        <p>文档说明</p>
+                        <dl>
+                            <dt>阅读对象</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>版本说明</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- 移动支付 - H5支付 -->
+                <div class="content-wrap" id="H5-pay" style="height:910px; display:none">
+                    <div class="sidebar" id="sidebar" style="top:20px">
+                        <div>H5支付</div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">文档说明</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">阅读对象</a></li>
+                                <li><a href="javascript:void(0)">版本说明</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">业务术语</a></div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">支付账户</a></div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">扫码支付</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">场景介绍</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">接口规则</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">协议规则</a></li>
+                                <li><a href="javascript:void(0)">参数规定</a></li>
+                                <li><a href="javascript:void(0)">安全规范</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">API列表</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">统一支付</a></li>
+                                <li><a href="javascript:void(0)">支付状态监测</a></li>
+                                <li><a href="javascript:void(0)">支付结果通知</a></li>
+                                <li><a href="javascript:void(0)">查询订单</a></li>
+                                <li><a href="javascript:void(0)">申请退款</a></li>
+                                <li><a href="javascript:void(0)">查询退款</a></li>
+                                <li><a href="javascript:void(0)">下载对账单</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">Demo下载</a></div>
+                    </div>
+                    <div class="content-outer" style="top:20px">
+                        <p>文档说明</p>
+                        <dl>
+                            <dt>阅读对象</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>版本说明</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- 移动支付 - 公众号支付 -->
+                <div class="content-wrap" id="Mobile-pay" style="height:990px; display:none">
+                    <div class="sidebar" id="sidebar" style="top:20px">
+                        <div>公众号支付</div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">文档说明</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">阅读对象</a></li>
+                                <li><a href="javascript:void(0)">版本说明</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">业务术语</a></div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">支付账户</a></div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">公众号支付</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">场景介绍</a></li>
+                                <li><a href="javascript:void(0)">业务流程</a></li>
+                                <li><a href="javascript:void(0)">获取openid</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">接口规则</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">协议规则</a></li>
+                                <li><a href="javascript:void(0)">参数规定</a></li>
+                                <li><a href="javascript:void(0)">安全规范</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">API列表</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">统一支付</a></li>
+                                <li><a href="javascript:void(0)">支付状态监测</a></li>
+                                <li><a href="javascript:void(0)">支付结果通知</a></li>
+                                <li><a href="javascript:void(0)">查询订单</a></li>
+                                <li><a href="javascript:void(0)">申请退款</a></li>
+                                <li><a href="javascript:void(0)">查询退款</a></li>
+                                <li><a href="javascript:void(0)">下载对账单</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">Demo下载</a></div>
+                    </div>
+                    <div class="content-outer" style="top:20px">
+                        <p>文档说明</p>
+                        <dl>
+                            <dt>阅读对象</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>版本说明</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- 移动支付 - APP支付 -->
+                <div class="content-wrap" id="APP-pay" style="height:866px; display:none">
+                    <div class="sidebar" id="sidebar" style="top:20px">
+                        <div>APP支付</div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">文档说明</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">阅读对象</a></li>
+                                <li><a href="javascript:void(0)">版本说明</a></li>
+                            </ul>
+                        </div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">业务术语</a></div>
+                        <div><a href="javascript:void(0)" class="sidebar-title">支付账户</a></div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">APP支付</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">场景介绍</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">接口规则</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">协议规则</a></li>
+                                <li><a href="javascript:void(0)">参数规定</a></li>
+                                <li><a href="javascript:void(0)">安全规范</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="sidebar-title">API列表</a>
+                            <ul class="down-list">
+                                <li><a href="javascript:void(0)">统一支付</a></li>
+                                <li><a href="javascript:void(0)">支付状态监测</a></li>
+                                <li><a href="javascript:void(0)">支付结果通知</a></li>
+                                <li><a href="javascript:void(0)">查询订单</a></li>
+                                <li><a href="javascript:void(0)">申请退款</a></li>
+                                <li><a href="javascript:void(0)">查询退款</a></li>
+                                <li><a href="javascript:void(0)">下载对账单</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-outer" style="top:20px">
+                        <p>文档说明</p>
+                        <dl>
+                            <dt>阅读对象</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>版本说明</dt>
+                            <dd>
+                                内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字 内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- 易码付 -->
+                <div class="content-wrap" id="Easy-pay" style="height:550px; display:none">
+                    <div class="easy-pay-demo">
+                        <div class="easy-pay-demo-title">
+                            <h5>易码付演示</h5>
+                        </div>
+                        <div class="easy-pay-demo-body">
+                            <p>成功入驻的商户，开通易码付产品后，可在商户平台下载易码付二维码图片</p>
+                            <div class="merchant">
+                                <p>商户易码付</p>
+                                <div class="erweima"></div>
+                                <div class="pay-logos">
+                                    <span class="wx-logo"></span>
+                                    <span class="zfb-logo"></span>
+                                    <span class="qq-logo"></span>
+                                    <span class="bd-logo"></span>
+                                    <span class="jd-logo"></span>
+                                </div>
+                            </div>
+                            <div class="bottom-text">
+                                <p>扫描二维码，体验易码付收款</p>
+                                <p>请分别使用微信客户端、支付宝客户端、QQ客户端，发起真实交易，体验支付流程</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 收款终端 - 即收PC收银台 -->
+                <div class="content-wrap" id="PC-Take-Terminal" style="height:550px; display:none">
+                    <div class="PC-take-demo">
+                        <div class="PC-take-demo-title">
+                            <h5>即收PC收银台体验</h5>
+                        </div>
+                        <div class="PC-take-demo-body">
+                            <div class="left fl">
+                                <div></div>
+                            </div>
+                            <div class="right fl">
+                                <p>下载<span>即收PC收银台Demo</span>，体验产品功能</p>
+                                <div class="android-btn">
+                                    <span>下载PC版</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 收款终端 - 即收App体验 -->
+                <div class="content-wrap" id="APP-Take-Terminal" style="height:550px; display:none">
+                    <div class="APP-take-demo">
+                        <div class="APP-take-demo-title">
+                            <h5>即收APP体验</h5>
+                        </div>
+                        <div class="APP-take-demo-body">
+                            <div class="left fl">
+                                <div class="erweima"></div>
+                            </div>
+                            <div class="right fl">
+                                <div class="android">
+                                    <p>下载即收<span>App Demo</span>，体验产品功能</p>
+                                    <p>发起真实交易，体验收款流程</p>
+                                    <p>请使用支付宝/QQ/浏览器扫描二维码</p>
+                                    <div class="android-btn">
+                                        <span>下载安卓版apk</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer container-fluid clearfix">
+            <div class="w1200">
+                <div class="container-main">
+                    <div class="footer-w">
+                        <div class="textB">
+                            <dl>
+                                <dt>关于我们</dt>
+                                <dd><a href="./about.html?about">关于我们</a></dd>
+                                <dd><a href="./about.html?join">加入我们</a></dd>
+                            </dl>
+                        </div>
+                        <div class="textC">
+                            <p>客服热线：0755-88305616</p>
+                            <p>技术邮箱：support@ulopay.com</p>
+                            <p>商务邮箱：business@ulopay.com</p>
+                        </div>
+                        <div class="textD">
+                            <p>深圳市福田区深圳文化创意园F馆3楼</p>
+                            <p>深圳市优络科技有限公司 粤ICP备16091288号</p>
+                            <p>工信部备案管理网站 <a href="http://beian.miit.gov.cn/" target="_blank">http://beian.miit.gov.cn/</a></p>
+                            <p>Copyright &copy; 2016 Youluo Technology. All Rights Reserved</p>
+                            <span class="place"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src='./lib/jquery/jquery-1.12.4.min.js'></script>
+<script src='./static/js/nav.js'></script>
+<script src='./static/js/sidebar.js'></script>
+<script src='./static/js/paymode.js'></script>

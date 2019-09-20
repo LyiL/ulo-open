@@ -1,0 +1,222 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+  }
+  
+  ul, li {
+    list-style: none;
+  }
+  
+
+  
+  // 顶部banner
+  .top-banner {
+    // position: relative;
+    width: 100%;
+    height: 580px;
+    background-color: #123593;
+    text-align: center;
+    .banner-text {
+      position: relative;
+      color: #fff;
+      text-align: center;
+      h3 {
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        // font-size: 48px;
+        font-size: 36px;
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        opacity: 0;
+      }
+      p {
+        position: absolute;
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        font-size: 14px;
+        line-height: 24px;
+        opacity: 0;
+      }
+      p.share-banner-briefA {
+        top: 580px;
+        left: 50%;
+      }
+      p.share-banner-briefB {
+        top: 610px;
+        left: 50%;
+      }
+    }
+  }
+   
+  
+  //主体内容
+  .content-box {
+    padding-top: 110px;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+    background: url("../images/share/main_content_bg.png") 0 536px no-repeat #f7f7f7;
+    background-size: 100%;
+    .pain-points, .core-functions, .applications {
+      h3 {
+        margin-bottom: 24px;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: normal;
+      }
+    }
+    //解决痛点 致力合规
+    .pain-points {
+      .points-main {
+        width: 980px;
+        margin: 92px auto 64px;
+        div {
+          width: 50%;
+          height: 225px;
+          text-align: left;
+          h4 {
+            background: url("../images/share/pain_2.png") left center no-repeat;
+            height: 38px;
+            line-height: 38px;
+            font-size: 24px;
+            margin-bottom: 16px;
+            padding-left: 54px;
+          }
+          p {
+            line-height: 24px;
+            font-size: 14px;
+          }
+          &:nth-child(2) {
+            h4 {
+              background: url("../images/share/pain_3.png") left center no-repeat;
+            } 
+          }
+          &:nth-child(3) {
+            h4 {
+              background: url("../images/share/pain_4.png") left center no-repeat;
+            } 
+          }
+          &:nth-child(4) {
+            h4 {
+              background: url("../images/share/pain_5.png") left center no-repeat;
+            } 
+          }
+        }
+        .padding-right-num {
+          padding-right: 80px;
+        }
+        .padding-left-num {
+          padding-left: 70px;
+        }
+      }
+    }
+    //核心功能
+    .core-functions {
+      padding-bottom: 160px;
+      .functions-btn {
+        margin: 66px 0 30px;
+        .functions-btn-list {
+          width: 66%;//782px
+          margin: 0 auto;
+          .functions-btn-item {
+            width: 140px;
+            height:　44px;
+            line-height: 44px;
+            margin-right: 20px;
+            font-size: 16px;
+            color: #a9a9a9;
+            background-color: #fff;
+            border-radius: 22px;
+            &:nth-child(1) {
+              color: #fff;
+              background-color: #1671f9;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .functions-main {
+        width: 93%;
+        height: 620px;
+        margin: 0 auto;
+        padding-top: 40px;
+        background-color: #fff;
+        overflow: hidden;
+        // box-shadow: darkgrey 0px 0px 30px 5px;
+        box-shadow: #e6e9eb 0px 0px 30px 5px;
+        .functions-text {
+          margin-bottom: 36px;
+          height: 40px;
+          line-height: 40px;
+          text-align: left;
+          padding-left: 40px;
+          font-size: 24px;
+          color: #333;
+          background: url("../images/share/function_7.png") left center no-repeat;
+        }
+        .functions-img {
+          vertical-align: bottom;
+        }
+      }
+    } 
+    //应用场景
+    .applications {
+      padding-bottom: 190px;
+      .application-list {
+        width: 93%;//1110px
+        margin: 60px auto 0;
+        .application-item {
+          margin-right: 10px;
+          width: 270px;
+          height: 270px;
+          line-height: 270px;
+          text-align: center;
+          font-size: 18px;
+          color: #fefefe;
+          .item {
+            transition:all  0.4s;
+            -ms-transition:all  0.4s; 	/* IE 9 */
+            -moz-transition:all 0.4s; /* Firefox 4 */
+            -webkit-transition:all 0.4s; /* Safari and Chrome */
+            -o-transition:all 0.4s; /* Opera */
+          }
+          &:nth-child(1) {
+            background: url("../images/share/application_2.png") center no-repeat;
+          }
+          &:nth-child(2) {
+            background: url("../images/share/application_3.png") center no-repeat;
+          }
+          &:nth-child(3) {
+            background: url("../images/share/application_4.png") center no-repeat;
+          }
+          &:nth-child(4) {
+            background: url("../images/share/application_5.png") center no-repeat;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover .item {
+            transform: scale(1.3);
+            -ms-transform: scale(1.3); 	/* IE 9 */
+            -moz-transform: scale(1.3); 	/* Firefox */
+            -webkit-transform: scale(1.3); /* Safari 和 Chrome */
+            -o-transform: scale(1.3); 	/* Opera */
+          }
+        }
+      }
+    }
+  
+  }
+   

@@ -1,0 +1,44 @@
+.connecting-flow {
+  width: 100%;
+  height: 1392px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: #FAFAFB;
+}
+.connecting-flow .connecting-flow-title h2 {
+  font-size: 34px;
+}
+.connecting-flow .connecting-flow-title .connecting-flow-line {
+  margin: 0 auto;
+  display: block;
+  width: 555px;
+  height: 13px;
+  background: url('../images/icon.png') center no-repeat;
+  background-position: -2px -219px;
+  background-size: 559px 235px;
+  margin-top: 24px;
+}
+.connecting-flow .connecting-flow-content {
+  width: 1150px;
+  height: 1066px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 100px 0 0 106px;
+  text-align: left;
+}
+.connecting-flow .connecting-flow-content h5 {
+  font-size: 20px;
+  color: #333;
+}
+.connecting-flow .connecting-flow-content dt {
+  color: #333;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.connecting-flow .connecting-flow-content dd {
+  font-size: 14px;
+  color: #666;
+}

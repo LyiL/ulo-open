@@ -1,0 +1,199 @@
+// 顶部banner
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  background: url("../images/agent_pay/banner.png") center repeat-y;
+  margin: 0 auto;
+  .banner-text {
+    color: #fff;
+    text-align: center;
+    h3 {
+      position: absolute;
+      // top: 130px;
+      top: 350px;
+      left: 50%;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      margin-bottom: 22px;
+      font-size: 36px;
+      opacity: 0;
+
+      .banner-icon {
+        display: inline-block;
+        width: 40px;
+        height: 35px;
+        background: url("../images/icon2.png") -90px -2px no-repeat;
+        vertical-align: bottom;
+        margin-right: 18px;
+      }
+    }
+    p {
+      position: absolute;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      font-size: 14px;
+      line-height: 24px;
+      opacity: 0;
+    }
+    p.share-banner-briefA {
+      top: 580px;
+      left: 50%;
+    }
+    p.share-banner-briefB {
+      top: 610px;
+      left: 50%;
+    }
+  }
+}
+
+// 描述部分
+.desc {
+  padding-top: 100px;
+  padding-bottom: 176px;
+  .words {
+    width: 420px;
+    margin-left: 116px;
+    h3 {
+      font-size: 28px;
+      line-height: 54px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  .pic {
+    margin-right: 98px;
+    img {
+      width: 475px;
+      height: 312px;
+    }
+  }
+}
+
+
+// 产品解决方案
+.solution {
+  text-align: center;
+  margin-bottom: 194px;
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .sub-title {
+    width: 298px;
+    height: 30px;
+    margin-bottom: 66px;
+  }
+  .solution-wrapper {
+    margin:0 120px;
+    .solution-item {
+      margin-right: 40px;
+      width: 208px;
+      height: 208px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+      .solution-item-normal {
+        border: 1px solid #e3e3e3;
+        width: 208px;
+        height: 208px;
+        text-align: center;
+        .img-wrapper {
+          height: 92px;
+          margin-top: 54px;
+        }
+        .solution-tip {
+          font-size: 16px;
+        }
+      }
+      .solution-item-hidden {
+        color:#fff;
+        background-color: #0d96ff;
+        opacity:0.9;
+        filter:alpha(opacity=90);
+        position: absolute;
+        left: 0;
+        top: 208px;
+        width: 208px;
+        height: 208px;
+        display: table;
+        transition:top 0.5s;
+        -ms-transition: top 0.5s;
+        -moz-transition:top 0.5s; /* Firefox 4 */
+        -webkit-transition:top 0.5s; /* Safari and Chrome */
+        -o-transition:top 0.5s; /* Opera */
+        &.active {
+          top: 0;
+        }
+        .hidden-wrapper {
+          display: table-cell;
+          vertical-align: middle;
+          p {
+            font-size: 12px;
+            line-height: 24px;
+          }
+        }
+      }
+      &:hover .solution-item-hidden {
+        top: 0;
+      }
+    }
+  }
+}
+
+// 选择我们
+.choose {
+  text-align: center;
+  margin-bottom: 196px;
+  .title {
+    font-size: 28px;
+    margin-bottom: 26px;
+  }
+  .sub-title {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 50px;
+  }
+  .choose-wrapper {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  .choose-item {
+    width: 272px;
+    height: 454px;
+    border: 10px solid #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      border-color: #f0f0f0;
+    }
+    .pic {
+      height: 246px;
+      margin-top: 22px;
+    }
+    h4 {
+      line-height: 66px;
+      font-size: 16px;
+    }
+    p {
+      line-height: 24px;
+      font-size: 12px;
+      color: #999;
+    }
+  }
+}

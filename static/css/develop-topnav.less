@@ -1,0 +1,216 @@
+.header {
+  height: 60px;
+  background-color: #0a1e33;
+  // padding-top: 20px;
+  // line-height: 60px;
+  // 顶部导航
+  .top-nav {
+    position: relative;
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      span {
+        color: #fff;
+        vertical-align: middle;
+        font-size: 14px;
+        &:before {
+          content: "";
+          display: inline-block;
+          width: 1px;
+          height: 14px;
+          background-color: #fff;
+          color: #fff;
+          vertical-align: middle;
+          margin-right: 8px;
+          margin-left: 12px;
+        }
+      }
+    }
+    .navbar {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      ul > li {
+        position: relative;
+        float: left;
+        &:hover a {
+          color: #39f;
+        }
+        &:nth-child(1) {
+            margin-right:42px;
+        }
+        &:nth-child(2) {
+            margin-right:53px;
+            a {
+                height:28px;
+            }
+        }
+        &:nth-child(3) {
+            margin-right:48px;
+            a {
+                height:28px;
+            }
+        }
+        &:nth-child(4) {
+            margin-right:48px;
+            a {
+                height:28px;
+            }
+        }
+        &:nth-child(5) {
+            a {
+                height:28px;
+            }
+        }
+        > a {
+          display: inline-block;
+          color: #fff;
+          text-decoration: none;
+          i {
+            padding-left: 10px;
+          }
+        }
+        .dropDown-MenuA {
+          display: none;
+          position: absolute;
+          top: 28px;
+          right: -8px;
+          width: 100px;
+          height: 110px;
+          padding: 10px 12px 16px 12px;
+          background: rgba(255, 255, 255, 0.1);
+          text-align: left;
+          li:hover {
+            a {
+              color: #3399ff;
+              .icon-service {
+                display: inline-block;
+                background: url("../images/icon.png") no-repeat;
+                background-position: -22px -2px;
+                background-size: 559px 235px;
+              }
+              .icon-agent {
+                display: inline-block;
+                background: url("../images/icon.png") no-repeat;
+                background-position: -22px -19px;
+                background-size: 559px 235px;
+              }
+              .icon-bank-cooperation {
+                display: inline-block;
+                background: url("../images/icon.png") no-repeat;
+                background-position: -22px -36px;
+                background-size: 559px 235px;
+              }
+            }
+          }
+          li:nth-child(2) {
+            margin: 14px 0;
+          }
+          a {
+            color: #fff;
+            font-size: 12px;
+            text-decoration: none;
+            .icon-service {
+              display: inline-block;
+              width: 16px;
+              height: 13px;
+              background: url("../images/icon.png") no-repeat;
+              background-position: -2px -2px;
+              background-size: 559px 235px;
+              margin-right: 6px;
+              vertical-align: middle;
+              margin-bottom: 4px;
+            }
+            .icon-agent {
+              display: inline-block;
+              width: 16px;
+              height: 13px;
+              background: url("../images/icon.png") no-repeat;
+              background-position: -2px -19px;
+              background-size: 559px 235px;
+              margin-right: 6px;
+              vertical-align: middle;
+              margin-bottom: 4px;
+            }
+            .icon-bank-cooperation {
+              display: inline-block;
+              width: 16px;
+              height: 13px;
+              background: url("../images/icon.png") no-repeat;
+              background-position: -2px -36px;
+              background-size: 559px 235px;
+              margin-right: 6px;
+              vertical-align: middle;
+              margin-bottom: 4px;
+            }
+          }
+        }
+        .dropDown-MenuB {
+          display: none;
+          position: absolute;
+          top: 28px;
+          right: -18px;
+          width: 138px;
+          height: 70px;
+          padding: 10px 10px 16px 16px;
+          background: rgba(255, 255, 255, 0.1);
+          text-align: left;
+          li:first-child {
+            margin-bottom: 14px;
+          }
+          a {
+            color: #fff;
+            font-size: 12px;
+            text-decoration: none;
+            &:hover {
+              color: #3399ff;
+            }
+          }
+        }
+      }
+    }
+    .cooperate {
+      position: absolute;
+      top: 16px;
+      right: 0;
+      width: 110px;
+      height: 60px;
+      > a {
+        display: inline-block;
+        width: 110px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #3b97ff;
+        border-radius: 14px;
+        color: #fff;
+        text-decoration: none;
+      }
+      .cooperate-menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 110px;
+        height: 60px;
+        border-radius: 6px;
+        overflow: hidden;
+        font-size: 0;
+        margin-top: 8px;
+        a {
+          display: inline-block;
+          width: 110px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          color: #fff;
+          background-color: #3b97ff;
+          &:hover {
+            background-color: #157cf1;
+          }
+        }
+      }
+    }
+  }
+}

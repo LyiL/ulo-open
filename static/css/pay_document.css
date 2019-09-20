@@ -1,0 +1,1400 @@
+.header {
+  width: 100%;
+  height: 350px;
+  background-color: #0A1E33;
+}
+.header .logo {
+  margin-top: 20px;
+}
+.header .logo span {
+  color: #fff;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.header .logo span:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: #fff;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-left: 12px;
+}
+.header .top-nav {
+  margin-top: 20px;
+}
+.header .top-nav ul > li {
+  position: relative;
+  float: left;
+}
+.header .top-nav ul > li:hover a {
+  color: #39f;
+}
+.header .top-nav ul > li:nth-child(1) {
+  margin-right: 42px;
+}
+.header .top-nav ul > li:nth-child(2) {
+  margin-right: 42px;
+}
+.header .top-nav ul > li > a {
+  display: inline-block;
+  color: #fff;
+  height: 30px;
+}
+.header .top-nav ul > li > a:hover {
+  color: #39f;
+}
+.header .top-nav ul > li > a i {
+  padding-left: 10px;
+}
+.header .top-nav ul > li .dropDown-MenuA {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: -8px;
+  width: 100px;
+  height: 110px;
+  padding: 10px 12px 16px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: left;
+  z-index: 999;
+  line-height: 1;
+  z-index: 10;
+}
+.header .top-nav ul > li .dropDown-MenuA li:hover a {
+  color: #3399ff;
+}
+.header .top-nav ul > li .dropDown-MenuA li:hover a .icon-service {
+  display: inline-block;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -22px -2px;
+  background-size: 559px 235px;
+}
+.header .top-nav ul > li .dropDown-MenuA li:hover a .icon-agent {
+  display: inline-block;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -22px -19px;
+  background-size: 559px 235px;
+}
+.header .top-nav ul > li .dropDown-MenuA li:hover a .icon-bank-cooperation {
+  display: inline-block;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -22px -36px;
+  background-size: 559px 235px;
+}
+.header .top-nav ul > li .dropDown-MenuA li:nth-child(2) {
+  margin: 20px 0;
+}
+.header .top-nav ul > li .dropDown-MenuA a {
+  height: 0;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.header .top-nav ul > li .dropDown-MenuA a .icon-service {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -2px -2px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav ul > li .dropDown-MenuA a .icon-agent {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -2px -19px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav ul > li .dropDown-MenuA a .icon-bank-cooperation {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url('../images/icon.png') no-repeat;
+  background-position: -2px -36px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav ul > li .dropDown-MenuB {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: -18px;
+  width: 138px;
+  height: 70px;
+  padding: 10px 10px 16px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: left;
+  line-height: 1;
+  z-index: 10;
+}
+.header .top-nav ul > li .dropDown-MenuB li:first-child {
+  margin-bottom: 22px;
+}
+.header .top-nav ul > li .dropDown-MenuB a {
+  height: 0;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.header .top-nav ul > li .dropDown-MenuB a:hover {
+  color: #3399ff;
+}
+.header .pay-box {
+  width: 1205px;
+  margin: 0 auto;
+}
+.header .pay-box > ul {
+  width: 1205px;
+  height: 220px;
+  margin-top: 18px;
+}
+.header .pay-box > ul .pay-list {
+  float: left;
+  width: 200px;
+  height: 220px;
+  border-right: 1px dashed #233548;
+  box-sizing: content-box;
+  text-align: center;
+}
+.header .pay-box > ul .pay-list:first-child p {
+  color: #3b97ff;
+}
+.header .pay-box > ul .pay-list:last-child {
+  border-right: 0;
+}
+.header .pay-box > ul .pay-list .pay-mode {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.header .pay-box > ul .pay-list .pay-mode p {
+  line-height: 1;
+}
+.header .pay-box > ul .pay-list .pay-mode > a {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-images {
+  display: inline-block;
+  background-image: url('../images/subnav_img.png');
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesA {
+  width: 72px;
+  height: 50px;
+  background-position: 0px -50px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesB {
+  width: 29px;
+  height: 50px;
+  background-position: -75px 0px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesC {
+  width: 50px;
+  height: 50px;
+  background-position: -105px 0px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesD {
+  width: 51px;
+  height: 50px;
+  background-position: -155px 0px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesE {
+  width: 67px;
+  height: 50px;
+  background-position: -210px 0px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a .pay-imagesF {
+  width: 63px;
+  height: 50px;
+  background-position: -280px 0px;
+}
+.header .pay-box > ul .pay-list .pay-mode > a p {
+  font-size: 14px;
+  color: #fff;
+  padding-top: 20px;
+}
+.header .pay-box > ul .pay-list .mobile-pay p {
+  line-height: 1;
+  margin-top: 4px;
+}
+.header .pay-box > ul .pay-list .mobile-pay a {
+  font-size: 12px;
+  color: #A5A9AD;
+}
+.header .pay-box > ul .pay-list .mobile-pay a:hover {
+  color: #368BEB;
+}
+.main {
+  background-color: #FAFAFB;
+}
+.main .content-wrap {
+  position: relative;
+}
+.main .content-wrap .PCpay-demo {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 1160px;
+  height: 580px;
+  background-color: #fff;
+  z-index: 30;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-title {
+  padding: 0 20px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-title h5 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dashed #E1E7ED;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-title h5:before {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  content: '';
+  width: 14px;
+  height: 11px;
+  background: url('../images/window.png');
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA {
+  padding-top: 36px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .line {
+  position: relative;
+  width: 608px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #D8EAFF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .line .complete:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .progress-text {
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .progress-text span {
+  margin-right: 160px;
+  color: #C1D9FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .progress-text span:first-child {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .progress-box .progress-text span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content {
+  margin-left: 150px;
+  margin-top: 70px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .left {
+  float: left;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .left > div {
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .right {
+  float: left;
+  margin-left: 56px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .right h4 {
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .right span {
+  font-size: 20px;
+  color: #B31735;
+  line-height: 42px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .right p {
+  font-size: 12px;
+  color: #333;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyA .PCpay-demo-content .right .common-btn {
+  width: 148px;
+  height: 40px;
+  background-color: #3B97FF;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB {
+  padding-top: 36px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .line {
+  width: 608px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #D8EAFF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .line .complete {
+  position: relative;
+  width: 33%;
+  height: 2px;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .line .complete:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 200px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .progress-text {
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .progress-text span {
+  margin-right: 160px;
+  color: #C1D9FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .progress-text span:first-child {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .progress-text span:nth-child(2) {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .progress-box .progress-text span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content {
+  padding: 54px 90px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content p {
+  font-size: 16px;
+  color: #333;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span {
+  font-size: 14px;
+  color: #333;
+  margin-top: 24px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span:first-child {
+  position: relative;
+  display: inline-block;
+  width: 96px;
+  height: 36px;
+  border: 2px solid #3B97FF;
+  text-align: center;
+  line-height: 34px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span:first-child i {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  display: inline-block;
+  width: 16px;
+  height: 9px;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span:first-child i:before {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  content: '';
+  width: 7px;
+  height: 5px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: 0px -22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span:nth-child(2) {
+  margin-left: 30px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .delivery-info .person-info span:last-child {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 32px;
+  text-align: center;
+  background-color: #AEAEAE;
+  color: #fff;
+  font-size: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info {
+  margin-top: 54px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div {
+  height: 80px;
+  margin-top: 12px;
+  padding: 10px 0;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div .goods-img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-color: #DDDDDD;
+  margin-left: 20px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div .goods-detail {
+  float: left;
+  margin-left: 22px;
+  margin-top: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div .goods-price {
+  float: right;
+  text-align: right;
+  margin-top: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div .goods-price p {
+  font-size: 14px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .indent-info > div .goods-price p:first-child {
+  color: #D40000;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .submit-indent {
+  text-align: right;
+  margin-top: 30px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .submit-indent p {
+  font-size: 16px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .submit-indent p span {
+  font-size: 14px;
+  color: #d40000;
+  margin-left: 92px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyB .PCpay-demo-content .submit-indent .common-btn {
+  width: 148px;
+  height: 40px;
+  background-color: #3B97FF;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC {
+  position: relative;
+  padding-top: 36px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .line {
+  width: 608px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #D8EAFF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .line .complete {
+  position: relative;
+  width: 68%;
+  height: 2px;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .line .complete:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 408px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text {
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text span {
+  margin-right: 160px;
+  color: #C1D9FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text span:first-child {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text span:nth-child(2) {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text span:nth-child(3) {
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .progress-box .progress-text span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA {
+  position: absolute;
+  padding: 62px 90px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-time {
+  font-size: 16px;
+  color: #333;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-time span {
+  color: #EC3636;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-money {
+  width: 978px;
+  height: 78px;
+  border: 1px solid #E3E3E3;
+  margin-top: 16px;
+  padding: 0 28px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-money .pay-money-left {
+  font-size: 12px;
+  margin-top: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-money .pay-money-right {
+  line-height: 78px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-money .pay-money-right span {
+  font-size: 18px;
+  color: #C01414;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode {
+  margin-top: 52px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode p {
+  font-size: 16px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul {
+  margin-top: 26px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li {
+  position: relative;
+  float: left;
+  width: 116px;
+  height: 36px;
+  border: 2px solid #E3E3E3;
+  text-align: center;
+  line-height: 32px;
+  padding-left: 24px;
+  margin-right: 20px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li:first-child {
+  border: 2px solid #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li:first-child i {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  display: inline-block;
+  width: 16px;
+  height: 9px;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li:first-child i:before {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  content: '';
+  width: 7px;
+  height: 5px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: 0px -22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 6px;
+  background: url('../images/pattern_bg.png');
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li .pay-logo-wx {
+  width: 23px;
+  height: 21px;
+  background-position: 0 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li .pay-logo-zfb {
+  width: 20px;
+  height: 21px;
+  background-position: -24px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li .pay-logo-qq {
+  width: 18px;
+  height: 21px;
+  background-position: -44px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li .pay-logo-bd {
+  width: 18px;
+  height: 21px;
+  background-position: -62px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-mode ul li .pay-logo-jd {
+  width: 20px;
+  height: 21px;
+  background-position: -81px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-btn {
+  text-align: right;
+  height: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentA .pay-btn .common-btn {
+  width: 148px;
+  height: 40px;
+  background-color: #3B97FF;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 48px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB {
+  position: absolute;
+  top: 0;
+  width: 1160px;
+  height: 530px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 36px 40px 0;
+  font-size: 14px;
+  z-index: 99;
+  margin: 0 auto;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left span {
+  color: #fff;
+  font-size: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left > p {
+  color: #fff;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip {
+  width: 370px;
+  height: 320px;
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-top {
+  text-align: left;
+  padding-top: 34px;
+  padding-left: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-top h5 {
+  font-size: 12px;
+  color: #bbb;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-top p {
+  font-size: 12px;
+  color: #696969;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-top p span {
+  color: #D98080;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-center {
+  padding: 22px 62px 30px 62px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-center .content-c-l .erweima-img {
+  width: 118px;
+  height: 118px;
+  background: url('../images/erweima.png');
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-center .content-c-l .erweima-scan {
+  width: 118px;
+  height: 30px;
+  background: #1AAD1A;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-center .content-c-l .erweima-scan p {
+  font-size: 10px;
+  color: #fff;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-center .content-c-r {
+  width: 120px;
+  height: 150px;
+  background: url('../images/sweep.png');
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-bottom {
+  margin-left: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-bottom p {
+  text-align: left;
+  font-size: 10px;
+  color: #BFD7F2;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .PC-left .PC-clip .content-bottom p span {
+  font-size: 10px;
+  color: #BFD7F2;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right > p {
+  color: #fff;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip {
+  width: 640px;
+  height: 320px;
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 26px;
+  padding: 10px 40px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left {
+  width: 168px;
+  height: 298px;
+  border: 1px solid #000;
+  margin-right: 28px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .head {
+  width: 166px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #343338;
+  color: #fff;
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content {
+  width: 166px;
+  height: 274px;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content span {
+  color: #696969;
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content > span {
+  display: inline-block;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content .payee {
+  width: 166px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  border: 1px solid #E7E7E7;
+  background-color: #FFF;
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content .payee span {
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .left .content .prompt-pay {
+  width: 150px;
+  height: 18px;
+  line-height: 18px;
+  background-color: #41BD16;
+  margin: 0 auto;
+  margin-top: 16px;
+  color: #fff;
+  font-size: 8px;
+  border-radius: 4px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center {
+  position: relative;
+  width: 168px;
+  height: 298px;
+  border: 1px solid #000;
+  margin-right: 28px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .head {
+  width: 166px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #343338;
+  color: #fff;
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content {
+  width: 166px;
+  height: 274px;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content span {
+  color: #696969;
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content > span {
+  display: inline-block;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content .payee {
+  width: 166px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  border: 1px solid #E7E7E7;
+  background-color: #FFF;
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content .payee span {
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .content .prompt-pay {
+  width: 150px;
+  height: 18px;
+  line-height: 18px;
+  background-color: #41BD16;
+  margin: 0 auto;
+  margin-top: 16px;
+  color: #fff;
+  font-size: 8px;
+  border-radius: 4px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 166px;
+  height: 296px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup {
+  position: absolute;
+  left: 50%;
+  width: 126px;
+  height: 120px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 70px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .popup-head {
+  height: 18px;
+  border-bottom: 1px solid #DCF0DC;
+  font-size: 10px;
+  color: #9B9B9B;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .popup-head:before {
+  content: 'x';
+  position: absolute;
+  top: 0;
+  left: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .popup-payee p:first-child {
+  font-size: 10px;
+  margin: 8px 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .loose {
+  position: relative;
+  height: 18px;
+  line-height: 16px;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+  margin-left: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .loose:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #F9C700;
+  border-radius: 50%;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .loose:after {
+  position: absolute;
+  top: -1px;
+  right: 6px;
+  content: '>';
+  color: #9B9B9B;
+  font-size: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .loose p {
+  color: #9B9B9B;
+  font-size: 8px;
+  text-align: left;
+  padding-left: 18px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .center .mask .popup .affirm-pay {
+  width: 66px;
+  height: 18px;
+  line-height: 18px;
+  margin: 0 auto;
+  background-color: #1AAD19;
+  color: #fff;
+  font-size: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right {
+  width: 168px;
+  height: 298px;
+  border: 1px solid #000;
+  padding-top: 40px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-t > span {
+  display: inline-block;
+  width: 23px;
+  height: 21px;
+  background: url('../images/pattern_bg.png');
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-t p {
+  font-size: 10px;
+  color: #1AAD19;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-c {
+  margin-top: 18px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-c span {
+  margin-right: 0;
+  color: #696969;
+  font-size: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-c p {
+  font-weight: 900;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-b {
+  margin-top: 110px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-b > div {
+  width: 66px;
+  height: 18px;
+  line-height: 16px;
+  border: 1px solid #34B71F;
+  color: #34B71F;
+  margin: 0 auto;
+  font-size: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right .mobile-clip .right .right-b > p {
+  color: #D2D2D2;
+  font-size: 8px;
+  margin-top: 8px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right span {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 54px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .mobile-right span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .next-page {
+  margin: 0 auto;
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .next-page button {
+  position: relative;
+  width: 100px;
+  height: 32px;
+  border: 1px solid #39f;
+  background-color: transparent;
+  border-radius: 32px;
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyC .PCpay-demo-contentB .next-page button .PCpay-BtnC2-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #39f;
+  font-size: 10px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD {
+  padding-top: 36px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box {
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .line {
+  width: 608px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #D8EAFF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .line .complete {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .line .complete:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .progress-text {
+  margin-top: 12px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .progress-text span {
+  margin-right: 160px;
+  color: #C1D9FF;
+  color: #3B97FF;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .progress-box .progress-text span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content {
+  margin-top: 104px;
+  text-align: center;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .pay-success p {
+  font-size: 18px;
+  color: #3B97FF;
+  margin-top: 20px;
+  margin-bottom: 42px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .pay-money {
+  width: 978px;
+  height: 78px;
+  border: 1px solid #E3E3E3;
+  padding: 0 28px;
+  margin: 0 auto;
+  text-align: left;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .pay-money .pay-money-left {
+  font-size: 12px;
+  margin-top: 22px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .pay-money .pay-money-right {
+  line-height: 78px;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .pay-money .pay-money-right span {
+  font-size: 18px;
+  color: #C01414;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .again {
+  height: 0;
+}
+.main .content-wrap .PCpay-demo .PCpay-demo-bodyD .PCpay-demo-content .again .common-btn {
+  width: 148px;
+  height: 40px;
+  background-color: #3B97FF;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 40px;
+}
+.main .content-wrap .sidebar {
+  position: absolute;
+  top: 550px;
+  width: 220px;
+  background-color: #fff;
+}
+.main .content-wrap .sidebar div {
+  line-height: 42px;
+  font-size: 14px;
+  color: #333;
+}
+.main .content-wrap .sidebar div:first-child {
+  color: #999;
+  border-bottom: 1px solid #E1E7ED;
+  padding-left: 50px;
+}
+.main .content-wrap .sidebar div a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+  color: #333;
+  padding-left: 50px;
+}
+.main .content-wrap .sidebar div a:before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 8px;
+  width: 3px;
+  height: 28px;
+}
+.main .content-wrap .sidebar div a:hover:before {
+  background-color: #3B97FF;
+}
+.main .content-wrap .sidebar div .down-list > li {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.main .content-wrap .sidebar div .down-list > li a {
+  padding-left: 80px;
+}
+.main .content-wrap .content-outer {
+  position: absolute;
+  top: 550px;
+  left: 280px;
+  width: 960px;
+  padding-top: 20px;
+}
+.main .content-wrap .content-outer > p {
+  font-size: 16px;
+  color: #333;
+}
+.main .content-wrap .content-outer dl {
+  padding-top: 24px;
+}
+.main .content-wrap .content-outer dl dt {
+  font-size: 16px;
+  color: #333;
+  font-weight: 900;
+  padding-bottom: 14px;
+}
+.main .content-wrap .content-outer dl dd {
+  line-height: 24px;
+}
+.main .content-wrap .easy-pay-demo {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 1160px;
+  height: 580px;
+  background-color: #fff;
+  z-index: 30;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-title {
+  padding: 0 20px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-title h5 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dashed #E1E7ED;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-title h5:before {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  content: '';
+  width: 14px;
+  height: 11px;
+  background: url('../images/window.png');
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body {
+  text-align: center;
+  margin-top: 46px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body > p {
+  margin-bottom: 30px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body p {
+  color: #333;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant {
+  width: 220px;
+  height: 280px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant p {
+  font-size: 12px;
+  color: #0E427D;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .erweima {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos {
+  margin-top: 48px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos span {
+  margin-right: 10px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos span:last-child {
+  margin-right: 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos .wx-logo {
+  display: inline-block;
+  width: 23px;
+  height: 21px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: 0 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos .zfb-logo {
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: -24px 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos .qq-logo {
+  display: inline-block;
+  width: 18px;
+  height: 21px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: -44px 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos .bd-logo {
+  display: inline-block;
+  width: 18px;
+  height: 21px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: -62px 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .merchant .pay-logos .jd-logo {
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  background-image: url('../images/pattern_bg.png');
+  background-position: -81px 0;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .bottom-text p:first-child {
+  font-size: 16px;
+  margin-top: 50px;
+}
+.main .content-wrap .easy-pay-demo .easy-pay-demo-body .bottom-text p:last-child {
+  font-size: 12px;
+  margin-top: 16px;
+}
+.main .content-wrap .PC-take-demo {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 1160px;
+  height: 580px;
+  background-color: #fff;
+  z-index: 30;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-title {
+  padding: 0 20px;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-title h5 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dashed #E1E7ED;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-title h5:before {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  content: '';
+  width: 14px;
+  height: 11px;
+  background: url('../images/window.png');
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .left {
+  margin-top: 108px;
+  margin-left: 160px;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .left > div {
+  width: 389px;
+  height: 255px;
+  background: url('../images/terminal-pc_bg.png');
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .right {
+  margin-top: 196px;
+  margin-left: 90px;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .right p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .right p span {
+  font-weight: 900;
+}
+.main .content-wrap .PC-take-demo .PC-take-demo-body .right .android-btn {
+  width: 200px;
+  height: 51px;
+  background: url('../images/btn_login.png');
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.main .content-wrap .APP-take-demo {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 1160px;
+  height: 580px;
+  background-color: #fff;
+  z-index: 30;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-title {
+  padding: 0 20px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-title h5 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dashed #E1E7ED;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-title h5:before {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  content: '';
+  width: 14px;
+  height: 11px;
+  background: url('../images/window.png');
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .left {
+  margin-top: 116px;
+  margin-left: 232px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .left .erweima {
+  width: 220px;
+  height: 220px;
+  border: 4px solid #0A1E33;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right {
+  margin-top: 130px;
+  margin-left: 182px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android p {
+  color: #333;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android p span {
+  font-weight: 900;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android p:first-child {
+  font-size: 16px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android p:nth-child(2) {
+  line-height: 24px;
+  margin-top: 16px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android p:nth-child(3) {
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.main .content-wrap .APP-take-demo .APP-take-demo-body .right .android .android-btn {
+  width: 200px;
+  height: 51px;
+  background: url('../images/btn_login.png');
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  cursor: pointer;
+}

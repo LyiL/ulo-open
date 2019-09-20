@@ -1,0 +1,202 @@
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+#canv {
+  position: relative;
+  top: 60px;
+  width: 1900px;
+  height: 900px;
+}
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 980px;
+  text-align: center;
+}
+.top-banner .banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 980px;
+  background: url("../images/index_banner.png") center no-repeat;
+}
+.top-banner .banner-text {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+.top-banner .banner-text h3 {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  margin-bottom: 22px;
+  font-size: 72px;
+  font-weight: bold;
+  opacity: 0;
+}
+.top-banner .banner-text h3 .banner-icon {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  background: url("../images/icon2.png") -46px -2px no-repeat;
+  vertical-align: bottom;
+  margin-right: 18px;
+}
+.top-banner .banner-text .i-banner-title {
+  min-width: 1000px;
+}
+.top-banner .banner-text .i-banner-btn {
+  min-width: 1000px;
+  position: absolute;
+  top: 580px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  opacity: 0;
+}
+.top-banner .banner-text .i-banner-btn a {
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 40px;
+  background-color: rgba(21, 49, 96, 0.6);
+  border: solid 2px #1671f9;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.top-banner .banner-text .i-banner-btn a:last-child {
+  margin-right: 0;
+}
+.content-box {
+  padding-top: 132px;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-weight: normal;
+}
+.content-box .cooperation-process h3,
+.content-box .call-anytime h3,
+.content-box .cooperation-partners h3 {
+  margin-bottom: 24px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+.content-box .cooperation-process {
+  margin-bottom: 174px;
+}
+.content-box .cooperation-process .process-main {
+  margin-top: 50px;
+}
+.content-box .call-anytime .call-main {
+  width: 800px;
+  margin: 58px auto 166px;
+  color: #fff;
+  font-size: 16px;
+}
+.content-box .call-anytime .call-main div {
+  width: 240px;
+  height: 240px;
+  margin-right: 40px;
+  background-color: #1671f9;
+}
+.content-box .call-anytime .call-main div img {
+  margin: 86px auto 22px;
+}
+.content-box .call-anytime .call-main div:last-child {
+  margin-right: 0;
+}
+.content-box .call-anytime .call-main div.wechat {
+  position: relative;
+}
+.content-box .call-anytime .call-main div.wechat img {
+  margin-top: 84px;
+}
+.content-box .call-anytime .call-main div.wechat .qrcode-mask {
+  display: none;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content-box .call-anytime .call-main div.phone p {
+  font-size: 18px;
+  transition: all  0.4s;
+  -ms-transition: all  0.4s;
+  /* IE 9 */
+  -moz-transition: all 0.4s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.4s;
+  /* Safari and Chrome */
+  -o-transition: all 0.4s;
+  /* Opera */
+}
+.content-box .call-anytime .call-main div.phone:hover p {
+  margin-top: 110px;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -webkit-transform: scale(1.5);
+  /* Safari 和 Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
+}
+.content-box .call-anytime .call-main div.phone:hover img {
+  display: none;
+}
+.content-box .call-anytime .call-main div.qq-inline a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.content-box .cooperation-partners .partner-list {
+  width: 82%;
+  margin: 53px auto 184px;
+}
+.content-box .cooperation-partners .partner-list .partner-item {
+  width: 25%;
+}
+.content-box .cooperation-partners .partner-list .partner-item .item {
+  height: 84px;
+  text-align: center;
+  vertical-align: middle;
+}
+.content-box .cooperation-partners .partner-list .partner-item .item img {
+  vertical-align: middle;
+}
+.content-box .cooperation-partners .partner-list .partner-item .item span {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}

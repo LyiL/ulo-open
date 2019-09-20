@@ -1,0 +1,1461 @@
+.header {
+    width: 100%;
+    height:350px;
+    background-color: #0A1E33;
+    // line-height: 60px;
+    .logo {
+        margin-top: 20px;
+        span {
+            color:#fff;
+            vertical-align:middle;
+            font-size: 14px;
+            &:before {
+                content:'';
+                display:inline-block;
+                width: 1px;
+                height:14px;
+                background-color: #fff;
+                color:#fff;
+                vertical-align:middle;
+                margin-right:8px;
+                margin-left:12px;
+            }
+        }
+    }
+    .top-nav {
+        margin-top: 20px;
+        ul>li {
+            position:relative;
+            float:left;
+            &:hover a {
+                color:#39f;
+            }
+            &:nth-child(1) {
+                margin-right:42px;
+            }
+            &:nth-child(2) {
+                margin-right:42px;
+            }
+            &:nth-child(3) {
+                // margin-right:40px;
+            }
+            >a {
+                display:inline-block;
+                color:#fff;
+                height:30px;
+                &:hover {
+                    color:#39f;
+                }
+                i {
+                    padding-left:10px;
+                }
+            }
+            .dropDown-MenuA {
+                display:none;
+                position:absolute;
+                top: 30px;
+                right:-8px;
+                width: 100px;
+                height: 110px;
+                padding:10px 12px 16px 12px;
+                background:rgba(255, 255, 255, .1);
+                text-align:left;
+                z-index: 999;
+                line-height: 1;
+                z-index: 10;
+                li:hover {
+                    a {
+                        color:#3399ff;
+                        .icon-service {
+                            display:inline-block;
+                            background: url('../images/icon.png') no-repeat;
+                            background-position: -22px -2px;
+                            background-size: 559px 235px;
+                        }
+                        .icon-agent {
+                            display:inline-block;
+                            background: url('../images/icon.png') no-repeat;
+                            background-position: -22px -19px;
+                            background-size: 559px 235px;
+                        }
+                        .icon-bank-cooperation {
+                            display:inline-block;
+                            background: url('../images/icon.png') no-repeat;
+                            background-position: -22px -36px;
+                            background-size: 559px 235px;
+                        }
+                    }
+                    
+                }
+                li:nth-child(2) {
+                    margin:20px 0;
+                }
+                a {
+                    height:0;
+                    color:#fff;
+                    font-size: 12px;
+                    text-decoration: none; 
+                    .icon-service {
+                        display:inline-block;
+                        width: 16px;
+                        height: 13px;
+                        background: url('../images/icon.png') no-repeat;
+                        background-position: -2px -2px;
+                        background-size: 559px 235px;
+                        margin-right:6px;
+                        vertical-align: middle;
+                        margin-bottom:4px;
+                    }
+                    .icon-agent {
+                        display:inline-block;
+                        width: 16px;
+                        height: 13px;
+                        background: url('../images/icon.png') no-repeat;
+                        background-position: -2px -19px;
+                        background-size: 559px 235px;
+                        margin-right:6px;
+                        vertical-align: middle;
+                        margin-bottom:4px;
+                    }
+                    .icon-bank-cooperation {
+                        display:inline-block;
+                        width: 16px;
+                        height: 13px;
+                        background: url('../images/icon.png') no-repeat;
+                        background-position: -2px -36px;
+                        background-size: 559px 235px;
+                        margin-right:6px;
+                        vertical-align: middle;
+                        margin-bottom:4px;
+                    }
+                }
+            }
+            .dropDown-MenuB {
+                display:none;
+                position:absolute;
+                top: 30px;
+                right:-18px;
+                width: 138px;
+                height: 70px;
+                padding:10px 10px 16px 16px;
+                background:rgba(255, 255, 255, .1);
+                text-align:left;
+                line-height: 1;
+                z-index: 10;
+                li:first-child {
+                    margin-bottom:22px;
+                }
+                a {
+                    height:0;
+                    color:#fff;
+                    font-size: 12px;
+                    text-decoration: none;
+                    &:hover {
+                        color:#3399ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .pay-box {
+        width: 1205px;
+        margin:0 auto;
+        >ul {
+            width: 1205px;
+            height:220px;
+            margin-top: 18px;
+            .pay-list {
+                float:left;
+                width: 200px;
+                height: 220px;
+                border-right:1px dashed #233548;
+                box-sizing: content-box;
+                text-align:center;
+                &:first-child {
+                    p {
+                        color:#3b97ff;
+                    }
+                }
+                &:last-child {
+                    border-right:0;
+                }
+                .pay-mode {
+                    width: 100px;
+                    height: 100px;
+                    text-align:center;
+                    margin:0 auto;
+                    p {
+                        line-height: 1;
+                    }
+                    >a {
+                        display:block;
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 60px;
+                        .pay-images {
+                            display:inline-block;
+                            background-image: url('../images/subnav_img.png');
+                            
+                        }
+                        .pay-imagesA {
+                            width: 72px;
+                            height: 50px;
+                            background-position: 0px -50px;
+                        }
+                        .pay-imagesB {
+                            width: 29px;
+                            height: 50px;
+                            background-position: -75px 0px;
+                        }
+                        .pay-imagesC {
+                            width: 50px;
+                            height: 50px;
+                            background-position: -105px 0px;
+                        }
+                        .pay-imagesD {
+                            width: 51px;
+                            height: 50px;
+                            background-position: -155px 0px;
+                        }
+                        .pay-imagesE {
+                            width: 67px;
+                            height: 50px;
+                            background-position: -210px 0px;
+                        }
+                        .pay-imagesF {
+                            width: 63px;
+                            height: 50px;
+                            background-position: -280px 0px;
+                        }
+                        p {
+                            font-size: 14px;
+                            color:#fff;
+                            padding-top: 20px;
+                        }
+                    }
+                }
+                .mobile-pay {
+                    p {
+                        line-height: 1;
+                        margin-top: 4px;
+                    }
+                    a {
+                        font-size: 12px;
+                        color:#A5A9AD;
+                        &:hover {
+                            color:#368BEB;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.main {
+    background-color: #FAFAFB;
+    // PC网页支付
+    .content-wrap {
+        position:relative;
+        .PCpay-demo {
+            position:absolute;
+            top: -50px;
+            left: 20px;
+            width: 1160px;
+            height: 580px;
+            background-color: #fff;
+            z-index: 30;
+            .PCpay-demo-title {
+                padding:0 20px;
+                h5 {
+                    height:50px;
+                    line-height: 50px;
+                    border-bottom:1px dashed #E1E7ED;
+                    padding-bottom:20px;
+                    padding-left:24px;
+                    &:before {
+                        position:absolute;
+                        top: 18px;
+                        left: 20px;
+                        content: '';
+                        width: 14px;
+                        height: 11px;
+                        background:url('../images/window.png');
+                    }
+                }
+            }
+            .PCpay-demo-bodyA {
+                padding-top: 36px;
+                .progress-box {
+                    text-align:center;
+                    .line {
+                        position:relative;
+                        width: 608px;
+                        height: 2px;
+                        margin:0 auto;
+                        background-color: #D8EAFF;
+                        .complete:before {
+                            content:'';
+                            position:absolute;
+                            top: -5px;
+                            left:0;
+                            width: 12px;
+                            height: 12px;
+                            border-radius:50%;
+                            background-color: #3B97FF;
+                        }
+                    }
+                    .progress-text {
+                        margin-top: 12px;
+                        span {
+                            margin-right:160px;
+                            color: #C1D9FF;
+                            &:first-child {
+                                color:#3B97FF;
+                            }
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                    }
+                }
+                .PCpay-demo-content {
+                    margin-left: 150px;
+                    margin-top: 70px;
+                    .left {
+                        float:left;
+                        >div {
+                            width: 300px;
+                            height: 300px;
+                            background-color: #eee;
+                        }
+                    }
+                    .right {
+                        float:left;
+                        margin-left:56px;
+                        h4 {
+                            font-size: 16px;
+                            color:#333;
+                            line-height: 40px;
+                        }
+                        span {
+                            font-size: 20px;
+                            color:#B31735;
+                            line-height: 42px;
+                        }
+                        p {
+                            font-size: 12px;
+                            color:#333;
+                        }
+                        .common-btn {
+                            width: 148px;
+                            height: 40px;
+                            background-color: #3B97FF;
+                            border-radius:40px;
+                            color:#fff;
+                            margin-top: 22px;
+                        }
+                    }
+                }
+            }
+
+            .PCpay-demo-bodyB {
+                padding-top: 36px;
+                .progress-box {
+                    text-align:center;
+                    .line {
+                        width: 608px;
+                        height: 2px;
+                        margin:0 auto;
+                        background-color: #D8EAFF;
+                        .complete {
+                            position:relative;
+                            width: 33%;
+                            height:2px;
+                            background-color: #3B97FF;
+                            &:before {
+                                content:'';
+                                position:absolute;
+                                top: -5px;
+                                left: 200px;
+                                width: 12px;
+                                height: 12px;
+                                border-radius:50%;
+                                background-color: #3B97FF;
+                            }
+                        }
+                    }
+                    .progress-text {
+                        margin-top: 12px;
+                        span {
+                            margin-right:160px;
+                            color: #C1D9FF;
+                            &:first-child {
+                                color:#3B97FF;
+                            }
+                            &:nth-child(2) {
+                                color:#3B97FF;
+                            }
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                    }
+                }
+                .PCpay-demo-content {
+                    padding:54px 90px 0;
+                    p {
+                        font-size: 16px;
+                        color:#333;
+                    }
+                    .delivery-info {
+                        .person-info {
+                            span {
+                                font-size: 14px;
+                                color:#333;
+                                margin-top: 24px;
+                                &:first-child {
+                                    position:relative;
+                                    display:inline-block;
+                                    width: 96px;
+                                    height: 36px;
+                                    border:2px solid #3B97FF;
+                                    text-align:center;
+                                    line-height: 34px;
+                                    i {
+                                        position:absolute;
+                                        top: 24px;
+                                        right:0;
+                                        display: inline-block;
+                                        width: 16px;
+                                        height: 9px;
+                                        background-color: #3B97FF;
+                                        &:before {
+                                            position:absolute;
+                                            top: 2px;
+                                            right: 4px;
+                                            content: '';
+                                            width: 7px;
+                                            height: 5px;
+                                            background-image: url('../images/pattern_bg.png');
+                                            background-position: 0px -22px;
+                                        }
+                                    }
+                                }
+                                &:nth-child(2) {
+                                    margin-left:30px;
+                                }
+                                &:last-child {
+                                    display: inline-block;
+                                    width: 60px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    margin-left:32px;
+                                    text-align:center;
+                                    background-color: #AEAEAE;
+                                    color:#fff;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    .indent-info {
+                        margin-top: 54px;
+                        >div {
+                            height:80px;
+                            margin-top: 12px;
+                            padding:10px 0;
+                            border-top: 1px solid #E3E3E3;
+                            border-bottom:1px solid #E3E3E3;
+                            .goods-img {
+                                float:left;
+                                width: 60px;
+                                height: 60px;
+                                background-color: #DDDDDD;
+                                margin-left:20px;
+                            }
+                            .goods-detail {
+                                float:left;
+                                margin-left:22px;
+                                margin-top: 8px;
+                            }
+                            .goods-price {
+                                float:right;
+                                text-align:right;
+                                margin-top: 8px;
+                                p {
+                                    font-size: 14px;
+                                    &:first-child {
+                                        color:#D40000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .submit-indent {
+                        text-align:right;
+                        margin-top:30px;
+                        p {
+                            font-size: 16px;
+                            span {
+                                font-size: 14px;
+                                color:#d40000;
+                                margin-left:92px;
+                            }
+                        }
+                        .common-btn {
+                            width: 148px;
+                            height: 40px;
+                            background-color: #3B97FF;
+                            border-radius:40px;
+                            color:#fff;
+                            margin-top: 22px;
+                        }
+                    }
+                }
+            }
+
+            .PCpay-demo-bodyC {
+                position:relative;
+                padding-top: 36px;
+                .progress-box {
+                    text-align:center;
+                    .line {
+                        width: 608px;
+                        height: 2px;
+                        margin:0 auto;
+                        background-color: #D8EAFF;
+                        .complete {
+                            position:relative;
+                            width: 68%;
+                            height:2px;
+                            background-color: #3B97FF;
+                            &:before {
+                                content:'';
+                                position:absolute;
+                                top: -5px;
+                                left: 408px;
+                                width: 12px;
+                                height: 12px;
+                                border-radius:50%;
+                                background-color: #3B97FF;
+                            }
+                        }
+                    }
+                    .progress-text {
+                        margin-top: 12px;
+                        span {
+                            margin-right:160px;
+                            color: #C1D9FF;
+                            &:first-child {
+                                color:#3B97FF;
+                            }
+                            &:nth-child(2) {
+                                color:#3B97FF;
+                            }
+                            &:nth-child(3) {
+                                color:#3B97FF;
+                            }
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                    }
+                }
+                .PCpay-demo-contentA {
+                    position:absolute;
+                    padding:62px 90px 0;
+                    .pay-time {
+                        font-size: 16px;
+                        color:#333;
+                        span {
+                            color:#EC3636;
+                        }
+                    }
+                    .pay-money {
+                        width: 978px;
+                        height:78px;
+                        border:1px solid #E3E3E3;
+                        margin-top:16px;
+                        padding: 0 28px;
+                        .pay-money-left {
+                            font-size: 12px;
+                            margin-top: 22px;
+                        }
+                        .pay-money-right {
+                            line-height:78px;
+                            span {
+                                font-size: 18px;
+                                color:#C01414;
+                            }
+                        }
+                    }
+                    .pay-mode {
+                        margin-top: 52px;
+                        p {
+                            font-size: 16px;
+                        }
+                        ul {
+                            margin-top: 26px;
+                            li {
+                                position:relative;
+                                float:left;
+                                width: 116px;
+                                height: 36px;
+                                border:2px solid #E3E3E3;
+                                text-align:center;
+                                line-height: 32px;
+                                padding-left:24px;
+                                margin-right:20px;  
+                                &:first-child {
+                                    border:2px solid #3B97FF;
+                                    i {
+                                        position:absolute;
+                                        top: 24px;
+                                        right:0;
+                                        display: inline-block;
+                                        width: 16px;
+                                        height: 9px;
+                                        background-color: #3B97FF;
+                                        &:before {
+                                            position:absolute;
+                                            top: 2px;
+                                            right: 4px;
+                                            content: '';
+                                            width: 7px;
+                                            height: 5px;
+                                            background-image: url('../images/pattern_bg.png');
+                                            background-position: 0px -22px;
+                                        }
+                                    }
+                                }
+                                span {
+                                    position:absolute;
+                                    top: 0;
+                                    left: 0;
+                                    margin-left: 10px;
+                                    margin-top: 6px;
+                                    background:url('../images/pattern_bg.png');
+                                }
+                                .pay-logo-wx {
+                                    width: 23px;
+                                    height: 21px;
+                                    background-position: 0 0;
+                                }
+                                .pay-logo-zfb {
+                                    width: 20px;
+                                    height: 21px;
+                                    background-position: -24px 0;
+                                }
+                                .pay-logo-qq {
+                                    width: 18px;
+                                    height: 21px;
+                                    background-position: -44px 0;
+                                }
+                                .pay-logo-bd {
+                                    width: 18px;
+                                    height: 21px;
+                                    background-position: -62px 0;
+                                }
+                                .pay-logo-jd {
+                                    width: 20px;
+                                    height: 21px;
+                                    background-position: -81px 0;
+                                }
+                            }
+                        }
+                    }
+                    .pay-btn {
+                        text-align:right;
+                        height: 0;
+                        .common-btn {
+                            width: 148px;
+                            height: 40px;
+                            background-color: #3B97FF;
+                            border-radius:40px;
+                            color:#fff;
+                            margin-top: 48px;
+                        }
+                    }
+                }
+
+                .PCpay-demo-contentB {
+                    position:absolute;
+                    top: 0;
+                    width: 1160px;
+                    height: 530px;
+                    background-color: rgba(0, 0, 0, .8);
+                    padding:36px 40px 0;
+                    font-size: 14px;
+                    z-index: 99;
+                    margin:0 auto;
+                    .PC-left {
+                        text-align:center;
+                        span {
+                            color:#fff;
+                            font-size: 12px;
+                        }
+                        >p {
+                            color:#fff;
+                        }
+                        .PC-clip {
+                            width: 370px;
+                            height: 320px;
+                            background-color: #fff;
+                            margin-top: 16px;
+                            margin-bottom:24px;
+                            .content-top {
+                                text-align:left;
+                                padding-top: 34px;
+                                padding-left:22px;
+                                h5 {
+                                    font-size: 12px;
+                                    color:#bbb;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color:#696969;
+                                    span {
+                                        color:#D98080;
+                                    }
+                                }
+                            }
+                            .content-center {
+                                padding:22px 62px 30px 62px;
+                                .content-c-l {
+                                    .erweima-img {
+                                        width: 118px;
+                                        height: 118px;
+                                        background:url('../images/erweima.png');
+                                    }
+                                    .erweima-scan {
+                                        width: 118px;
+                                        height: 30px;
+                                        background:#1AAD1A;
+                                        p {
+                                            font-size: 10px;
+                                            color:#fff;
+                                        }
+                                    }
+                                }
+                                .content-c-r {
+                                    width: 120px;
+                                    height: 150px;
+                                    background:url('../images/sweep.png');
+                                }
+                            }
+                            .content-bottom {
+                                margin-left:22px;
+                                p {
+                                    text-align:left;
+                                    font-size: 10px;
+                                    color: #BFD7F2;
+                                    span {
+                                        font-size: 10px;
+                                        color: #BFD7F2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .mobile-right {
+                        text-align:center;
+                        >p {
+                            color:#fff;
+                        }
+                        .mobile-clip {
+                            width: 640px;
+                            height: 320px;
+                            background-color: #fff;
+                            margin-top: 16px;
+                            margin-bottom:26px;
+                            padding:10px 40px;
+                            .left {
+                                width: 168px;
+                                height: 298px;
+                                border: 1px solid #000;
+                                margin-right:28px;
+                                .head {
+                                    width: 166px;
+                                    height: 22px;
+                                    line-height: 22px;
+                                    text-align:center;
+                                    background-color: #343338;
+                                    color:#fff;
+                                    font-size: 10px;
+                                }
+                                .content {
+                                    width: 166px;
+                                    height: 274px;
+                                    background-color: #F5F5F5;
+                                    text-align:center;
+                                    span {
+                                        color:#696969;
+                                        margin-right:0;
+                                    }
+                                    >span {
+                                        display:inline-block;
+                                        margin-top: 18px;
+                                        margin-bottom:10px;
+                                        font-size: 10px;
+                                    }
+                                    .payee {
+                                        width: 166px;
+                                        height: 24px;
+                                        line-height: 24px;
+                                        padding:0 10px; 
+                                        border: 1px solid #E7E7E7;
+                                        background-color: #FFF;
+                                        margin-top: 12px;
+                                        span {
+                                            font-size: 10px;
+                                        }
+                                    }
+                                    .prompt-pay {
+                                        width: 150px;
+                                        height: 18px;
+                                        line-height: 18px;
+                                        background-color: #41BD16;
+                                        margin:0 auto;
+                                        margin-top: 16px;
+                                        color:#fff;
+                                        font-size: 8px;
+                                        border-radius:4px;
+                                    }
+                                }
+                            }
+                            .center {
+                                position:relative;
+                                width: 168px;
+                                height: 298px;
+                                border: 1px solid #000;
+                                margin-right:28px;
+                                .head {
+                                    width: 166px;
+                                    height: 22px;
+                                    line-height: 22px;
+                                    text-align:center;
+                                    background-color: #343338;
+                                    color:#fff;
+                                    font-size: 10px;
+                                }
+                                .content {
+                                    width: 166px;
+                                    height: 274px;
+                                    background-color: #F5F5F5;
+                                    text-align:center;
+                                    span {
+                                        color:#696969;
+                                        margin-right:0;
+                                    }
+                                    >span {
+                                        display:inline-block;
+                                        margin-top: 18px;
+                                        margin-bottom:10px;
+                                        font-size: 10px;
+                                    }
+                                    .payee {
+                                        width: 166px;
+                                        height: 24px;
+                                        line-height: 24px;
+                                        padding:0 10px; 
+                                        border: 1px solid #E7E7E7;
+                                        background-color: #FFF;
+                                        margin-top: 12px;
+                                        span {
+                                            font-size: 10px;
+                                        }
+                                    }
+                                    .prompt-pay {
+                                        width: 150px;
+                                        height: 18px;
+                                        line-height: 18px;
+                                        background-color: #41BD16;
+                                        margin:0 auto;
+                                        margin-top: 16px;
+                                        color:#fff;
+                                        font-size: 8px;
+                                        border-radius:4px;
+                                    }
+                                }
+                                .mask {
+                                    position:absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 166px;
+                                    height: 296px;
+                                    background-color:rgba(0, 0, 0, .4);
+                                    .popup {
+                                        position:absolute;
+                                        left: 50%;
+                                        width: 126px;
+                                        height: 120px;
+                                        transform:translateX(-50%);
+                                        background-color: #fff;
+                                        border-radius:4px;
+                                        margin-top: 70px;
+                                        .popup-head {
+                                            height:18px;
+                                            border-bottom: 1px solid #DCF0DC;
+                                            font-size: 10px;
+                                            color:#9B9B9B;
+                                            &:before {
+                                                content:'x';
+                                                position:absolute;
+                                                top: 0;
+                                                left: 8px;
+                                            }
+                                        }
+                                        .popup-payee {
+                                            p {
+                                                &:first-child {
+                                                    font-size: 10px;
+                                                    margin:8px 0;
+                                                }
+                                            }
+                                        }
+                                        .loose {
+                                            position:relative;
+                                            height:18px;
+                                            line-height: 16px;;
+                                            border-top: 1px solid #E2E2E2;
+                                            border-bottom: 1px solid #E2E2E2;
+                                            margin-left:10px;
+                                            &:before {
+                                                position:absolute;
+                                                top: 2px;
+                                                left: 0;
+                                                content: '';
+                                                width: 12px;
+                                                height: 12px;
+                                                background-color: #F9C700;
+                                                border-radius:50%;
+                                            }
+                                            &:after {
+                                                position:absolute;
+                                                top: -1px;
+                                                right: 6px;
+                                                content:'>';
+                                                color:#9B9B9B;
+                                                font-size: 12px;
+                                            }
+                                            p {
+                                                color:#9B9B9B;
+                                                font-size: 8px;
+                                                text-align:left;
+                                                padding-left:18px;
+                                            }
+                                        }
+                                        .affirm-pay {
+                                            width: 66px;
+                                            height: 18px;
+                                            line-height: 18px;
+                                            margin:0 auto;
+                                            background-color: #1AAD19;
+                                            color:#fff;
+                                            font-size: 8px;
+                                            border-radius:4px;
+                                            margin-top: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                            .right {
+                                width: 168px;
+                                height: 298px;
+                                border: 1px solid #000;
+                                padding-top: 40px;
+                                .right-t {
+                                    >span {
+                                        display:inline-block;
+                                        width: 23px;
+                                        height: 21px;
+                                        background:url('../images/pattern_bg.png');
+                                        margin-right:0;
+                                    }
+                                    p {
+                                        font-size: 10px;
+                                        color:#1AAD19;
+                                    }
+                                }
+                                .right-c {
+                                    margin-top: 18px;
+                                    span {
+                                        margin-right:0;
+                                        color:#696969;
+                                        font-size: 8px;
+                                    }
+                                    p {
+                                        font-weight: 900;
+                                    }
+                                }
+                                .right-b {
+                                    margin-top: 110px;
+                                    >div {
+                                        width: 66px;
+                                        height: 18px;
+                                        line-height: 16px;
+                                        border: 1px solid #34B71F;
+                                        color:#34B71F;
+                                        margin:0 auto;
+                                        font-size: 8px;
+                                    }
+                                    >p {
+                                        color:#D2D2D2;
+                                        font-size: 8px;
+                                        margin-top: 8px;
+                                    }
+                                }
+                            }
+                        }
+                        span {
+                            color:#fff;
+                            font-size: 12px;
+                            margin-right:54px;
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                    }
+                    .next-page {
+                        margin:0 auto;
+                        text-align:center;
+                        button {
+                            position:relative;
+                            width: 100px;
+                            height: 32px;
+                            border: 1px solid #39f;
+                            background-color: transparent;
+                            border-radius:32px;
+                            color:#3B97FF;
+                            .PCpay-BtnC2-right {
+                                position:absolute;
+                                top: 10px;
+                                right:10px;
+                                color:#39f;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .PCpay-demo-bodyD {
+                padding-top: 36px;
+                .progress-box {
+                    text-align:center;
+                    .line {
+                        width: 608px;
+                        height: 2px;
+                        margin:0 auto;
+                        background-color: #D8EAFF;
+                        .complete {
+                            position:relative;
+                            width: 100%;
+                            height:2px;
+                            background-color: #3B97FF;
+                            &:before {
+                                content:'';
+                                position:absolute;
+                                top: -5px;
+                                right: 0;
+                                width: 12px;
+                                height: 12px;
+                                border-radius:50%;
+                                background-color: #3B97FF;
+                            }
+                        }
+                    }
+                    .progress-text {
+                        margin-top: 12px;
+                        span {
+                            margin-right:160px;
+                            color: #C1D9FF;
+                            color:#3B97FF;
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                    }
+                }
+                .PCpay-demo-content {
+                    margin-top: 104px;
+                    text-align:center;
+                    .pay-success {
+                        p {
+                            font-size: 18px;
+                            color:#3B97FF;
+                            margin-top: 20px;
+                            margin-bottom:42px;
+                        }
+                    }
+                    .pay-money {
+                        width: 978px;
+                        height:78px;
+                        border:1px solid #E3E3E3;
+                        padding: 0 28px;
+                        margin:0 auto;
+                        text-align:left;
+                        .pay-money-left {
+                            font-size: 12px;
+                            margin-top: 22px;
+                        }
+                        .pay-money-right {
+                            line-height:78px;
+                            span {
+                                font-size: 18px;
+                                color:#C01414;
+                            }
+                        }
+                    }
+                    .again {
+                        height:0;
+                        .common-btn {
+                            width: 148px;
+                            height: 40px;
+                            background-color: #3B97FF;
+                            border-radius:40px;
+                            color:#fff;
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar {
+            position:absolute;
+            top: 550px;
+            width: 220px;
+            background-color: #fff;
+            div {
+                line-height: 42px;
+                font-size: 14px;
+                color:#333;
+                
+                &:first-child {
+                    color:#999;
+                    border-bottom:1px solid #E1E7ED;
+                    padding-left:50px;
+                }
+                a {
+                    position:relative;
+                    display:inline-block;
+                    width: 100%;
+                    height:40px;
+                    line-height: 40px;
+                    border-left:3px solid transparent;
+                    text-decoration:none;
+                    color:#333;
+                    padding-left:50px;
+                    &:before {
+                        content:'';
+                        position:absolute;
+                        left: -2px;
+                        top:8px;
+                        width: 3px;
+                        height: 28px;
+                    }
+                    &:hover:before {
+                        background-color: #3B97FF;
+                    }
+                }
+                .down-list {
+                    // display:none;
+                    >li {
+                        width: 100%;
+                        height:40px;
+                        cursor:pointer;
+                        a {
+                            padding-left:80px;
+                        }
+                    }
+                }
+            }
+        }
+        .content-outer {
+            position:absolute;
+            top: 550px;
+            left: 280px;
+            width: 960px;
+            padding-top:20px;
+            >p {
+                font-size: 16px;
+                color:#333;
+            }
+            dl {
+                padding-top:24px;
+                dt {
+                    font-size: 16px;
+                    color:#333;
+                    font-weight: 900;
+                    padding-bottom:14px;
+                }
+                dd {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    // 易码付
+    .content-wrap {
+        .easy-pay-demo {
+            position:absolute;
+            top: -50px;
+            left: 20px;
+            width: 1160px;
+            height: 580px;
+            background-color: #fff;
+            z-index: 30;
+            .easy-pay-demo-title {
+                padding:0 20px;
+                h5 {
+                    height:50px;
+                    line-height: 50px;
+                    border-bottom:1px dashed #E1E7ED;
+                    padding-bottom:20px;
+                    padding-left:24px;
+                    &:before {
+                        position:absolute;
+                        top: 18px;
+                        left: 20px;
+                        content: '';
+                        width: 14px;
+                        height: 11px;
+                        background:url('../images/window.png');
+                    }
+                }
+            }
+            .easy-pay-demo-body {
+                text-align:center;
+                margin-top: 46px;
+                >p {
+                    margin-bottom:30px;
+                }
+                p {
+                    color:#333;
+                }
+                .merchant {
+                    width: 220px;
+                    height: 280px;
+                    border: 1px solid #000;
+                    margin:0 auto;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    p {
+                        font-size: 12px;
+                        color:#0E427D;
+                        padding-top: 30px;
+                        padding-bottom:16px;
+                    }
+                    .erweima {
+                        width: 120px;
+                        height: 120px;
+                        border: 1px solid #000;
+                        margin:0 auto;
+                    }
+                    .pay-logos {
+                        margin-top: 48px;
+                        span {
+                            margin-right:10px;
+                            &:last-child {
+                                margin-right:0;
+                            }
+                        }
+                        .wx-logo {
+                            display:inline-block;
+                            width: 23px;
+                            height: 21px;
+                            background-image:url('../images/pattern_bg.png');
+                            background-position:0 0; 
+                        }
+                        .zfb-logo {
+                            display:inline-block;
+                            width: 20px;
+                            height: 21px;
+                            background-image:url('../images/pattern_bg.png');
+                            background-position:-24px 0; 
+                        }
+                        .qq-logo {
+                            display:inline-block;
+                            width: 18px;
+                            height: 21px;
+                            background-image:url('../images/pattern_bg.png');
+                            background-position:-44px 0; 
+                        }
+                        .bd-logo {
+                            display:inline-block;
+                            width: 18px;
+                            height: 21px;
+                            background-image:url('../images/pattern_bg.png');
+                            background-position:-62px 0; 
+                        }
+                        .jd-logo {
+                            display:inline-block;
+                            width: 20px;
+                            height: 21px;
+                            background-image:url('../images/pattern_bg.png');
+                            background-position:-81px 0; 
+                        }
+                    }
+                }
+                .bottom-text { 
+                    p {
+                        &:first-child {
+                            font-size: 16px;
+                            margin-top: 50px;
+                        }
+                        &:last-child {
+                            font-size: 12px;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 收款终端 - 即收PC收银台体验
+    .content-wrap {
+        .PC-take-demo {
+            position:absolute;
+            top: -50px;
+            left: 20px;
+            width: 1160px;
+            height: 580px;
+            background-color: #fff;
+            z-index: 30;
+            .PC-take-demo-title {
+                padding:0 20px;
+                h5 {
+                    height:50px;
+                    line-height: 50px;
+                    border-bottom:1px dashed #E1E7ED;
+                    padding-bottom:20px;
+                    padding-left:24px;
+                    &:before {
+                        position:absolute;
+                        top: 18px;
+                        left: 20px;
+                        content: '';
+                        width: 14px;
+                        height: 11px;
+                        background:url('../images/window.png');
+                    }
+                }
+            }
+            .PC-take-demo-body {
+                .left {
+                    margin-top: 108px;
+                    margin-left:160px;
+                    >div {
+                        width: 389px;
+                        height: 255px;
+                        background:url('../images/terminal-pc_bg.png');
+                    }
+                }
+                .right {
+                    margin-top: 196px;
+                    margin-left: 90px;
+                    p {
+                        color:#333;
+                        font-size: 16px;
+                        margin-bottom:40px;
+                        span {
+                            font-weight: 900;
+                        }
+                    }
+                    .android-btn {
+                        width: 200px;
+                        height: 51px;
+                        background:url('../images/btn_login.png');
+                        text-align:center;
+                        color:#fff;
+                        font-size: 16px;
+                        line-height: 40px;
+                        cursor:pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    // 收款终端 - 即收APP体验
+    .content-wrap {
+        .APP-take-demo {
+            position:absolute;
+            top: -50px;
+            left: 20px;
+            width: 1160px;
+            height: 580px;
+            background-color: #fff;
+            z-index: 30;
+            .APP-take-demo-title {
+                padding:0 20px;
+                h5 {
+                    height:50px;
+                    line-height: 50px;
+                    border-bottom:1px dashed #E1E7ED;
+                    padding-bottom:20px;
+                    padding-left:24px;
+                    &:before {
+                        position:absolute;
+                        top: 18px;
+                        left: 20px;
+                        content: '';
+                        width: 14px;
+                        height: 11px;
+                        background:url('../images/window.png');
+                    }
+                }
+            }
+            .APP-take-demo-body {
+                .left {
+                    margin-top:116px;
+                    margin-left: 232px;
+                    .erweima {
+                        width: 220px;
+                        height: 220px;
+                        border: 4px solid #0A1E33;
+                    }
+                }
+                .right {
+                    margin-top: 130px;
+                    margin-left: 182px;
+                    .android {
+                        p {
+                            color:#333;
+                            span {
+                                font-weight: 900;
+                            }
+                            &:first-child {
+                                font-size: 16px;
+                            }
+                            &:nth-child(2) {
+                                line-height: 24px;
+                                margin-top: 16px;;
+                            }
+                            &:nth-child(3) {
+                                line-height: 24px;
+                                margin-bottom:40px;
+                            }
+                        }
+                        .android-btn {
+                            width: 200px;
+                            height: 51px;
+                            background:url('../images/btn_login.png');
+                            text-align:center;
+                            color:#fff;
+                            font-size: 16px;
+                            line-height: 40px;
+                            cursor:pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,109 @@
+.main {
+  width: 100%;
+  height: 750px;
+  background-color: #FAFAFB;
+  padding: 20px 0;
+}
+.main .content-wrap {
+  width: 1200px;
+  height: 710px;
+}
+.main .content-wrap .sidebar {
+  float: left;
+  width: 220px;
+  background-color: #fff;
+}
+.main .content-wrap .sidebar div {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+.main .content-wrap .sidebar div a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+  color: #333;
+}
+.main .content-wrap .sidebar div a:before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 8px;
+  width: 3px;
+  height: 28px;
+}
+.main .content-wrap .sidebar div a:hover:before {
+  background-color: #3B97FF;
+}
+.main .content-wrap .sidebar div .selected {
+  color: #fff;
+  background-color: #3b97ff;
+}
+.main .content-wrap .content-outer {
+  position: relative;
+  float: right;
+  width: 960px;
+  height: 710px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+.main .content-wrap .content-outer .content-detail {
+  width: 100%;
+}
+.main .content-wrap .content-outer .content-detail .content-title {
+  position: relative;
+}
+.main .content-wrap .content-outer .content-detail .content-title h3 {
+  width: 100%;
+  height: 68px;
+  line-height: 68px;
+  border-bottom: 1px dashed #E1E7ED;
+  font-size: 24px;
+  padding-left: 24px;
+  color: #333;
+  font-family: "Microsoft YaHei";
+}
+.main .content-wrap .content-outer .content-detail .content-title .search {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 160px;
+  height: 28px;
+  border: 1px solid #3B97FF;
+  border-radius: 28px;
+  padding-left: 12px;
+  padding-right: 30px;
+  font-size: 12px;
+}
+.main .content-wrap .content-outer .content-detail .content-title .glass {
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  font-size: 14px;
+  color: #3B97FF;
+  cursor: pointer;
+}
+.main .content-wrap .content-outer .content-detail .content-body {
+  padding: 42px 30px 44px 30px;
+}
+.main .content-wrap .content-outer .content-detail .content-body ul li {
+  margin-top: 40px;
+}
+.main .content-wrap .content-outer .content-detail .content-body ul li:first-child {
+  margin-top: 0;
+}
+.main .content-wrap .content-outer .content-detail .content-body ul li a {
+  font-size: 14px;
+  color: #666;
+}
+.main .content-wrap .content-outer .content-detail .content-body ul li a:hover {
+  color: #3B97FF;
+}

@@ -1,0 +1,192 @@
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  background: url("../images/agent_pay/banner.png") center repeat-y;
+  margin: 0 auto;
+}
+.top-banner .banner-text {
+  color: #fff;
+  text-align: center;
+}
+.top-banner .banner-text h3 {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  margin-bottom: 22px;
+  font-size: 36px;
+  opacity: 0;
+}
+.top-banner .banner-text h3 .banner-icon {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  background: url("../images/icon2.png") -90px -2px no-repeat;
+  vertical-align: bottom;
+  margin-right: 18px;
+}
+.top-banner .banner-text p {
+  position: absolute;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0;
+}
+.top-banner .banner-text p.share-banner-briefA {
+  top: 580px;
+  left: 50%;
+}
+.top-banner .banner-text p.share-banner-briefB {
+  top: 610px;
+  left: 50%;
+}
+.desc {
+  padding-top: 100px;
+  padding-bottom: 176px;
+}
+.desc .words {
+  width: 420px;
+  margin-left: 116px;
+}
+.desc .words h3 {
+  font-size: 28px;
+  line-height: 54px;
+}
+.desc .words p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.desc .pic {
+  margin-right: 98px;
+}
+.desc .pic img {
+  width: 475px;
+  height: 312px;
+}
+.solution {
+  text-align: center;
+  margin-bottom: 194px;
+}
+.solution .title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.solution .sub-title {
+  width: 298px;
+  height: 30px;
+  margin-bottom: 66px;
+}
+.solution .solution-wrapper {
+  margin: 0 120px;
+}
+.solution .solution-wrapper .solution-item {
+  margin-right: 40px;
+  width: 208px;
+  height: 208px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.solution .solution-wrapper .solution-item:last-child {
+  margin-right: 0;
+}
+.solution .solution-wrapper .solution-item .solution-item-normal {
+  border: 1px solid #e3e3e3;
+  width: 208px;
+  height: 208px;
+  text-align: center;
+}
+.solution .solution-wrapper .solution-item .solution-item-normal .img-wrapper {
+  height: 92px;
+  margin-top: 54px;
+}
+.solution .solution-wrapper .solution-item .solution-item-normal .solution-tip {
+  font-size: 16px;
+}
+.solution .solution-wrapper .solution-item .solution-item-hidden {
+  color: #fff;
+  background-color: #0d96ff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  position: absolute;
+  left: 0;
+  top: 208px;
+  width: 208px;
+  height: 208px;
+  display: table;
+  transition: top 0.5s;
+  -ms-transition: top 0.5s;
+  -moz-transition: top 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: top 0.5s;
+  /* Safari and Chrome */
+  -o-transition: top 0.5s;
+  /* Opera */
+}
+.solution .solution-wrapper .solution-item .solution-item-hidden.active {
+  top: 0;
+}
+.solution .solution-wrapper .solution-item .solution-item-hidden .hidden-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.solution .solution-wrapper .solution-item .solution-item-hidden .hidden-wrapper p {
+  font-size: 12px;
+  line-height: 24px;
+}
+.solution .solution-wrapper .solution-item:hover .solution-item-hidden {
+  top: 0;
+}
+.choose {
+  text-align: center;
+  margin-bottom: 196px;
+}
+.choose .title {
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+.choose .sub-title {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 50px;
+}
+.choose .choose-wrapper {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.choose .choose-item {
+  width: 272px;
+  height: 454px;
+  border: 10px solid #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.choose .choose-item:last-child {
+  margin-right: 0;
+}
+.choose .choose-item:hover {
+  border-color: #f0f0f0;
+}
+.choose .choose-item .pic {
+  height: 246px;
+  margin-top: 22px;
+}
+.choose .choose-item h4 {
+  line-height: 66px;
+  font-size: 16px;
+}
+.choose .choose-item p {
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+}

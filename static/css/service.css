@@ -1,0 +1,288 @@
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background: url("../images/fuwushang.png") center no-repeat;
+  margin: 0 auto;
+}
+.top-banner .banner-text {
+  color: #fff;
+  text-align: center;
+}
+.top-banner .banner-text h3 {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  margin-bottom: 22px;
+  font-size: 36px;
+  opacity: 0;
+}
+.top-banner .banner-text h3 .banner-icon {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  background: url("../images/icon2.png") -2px -2px no-repeat;
+  vertical-align: bottom;
+  margin-right: 18px;
+}
+.top-banner .banner-text p {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0;
+}
+.cooperation-model {
+  width: 100%;
+  height: 510px;
+  background-color: #fafafb;
+  padding-top: 100px;
+  text-align: center;
+}
+.cooperation-model .cooperation-title h2 {
+  font-size: 34px;
+}
+.cooperation-model .cooperation-title .cooperation-line {
+  margin: 0 auto;
+  display: block;
+  width: 555px;
+  height: 13px;
+  background: url("../images/icon.png") center no-repeat;
+  background-position: -2px -219px;
+  background-size: 559px 235px;
+  margin-top: 24px;
+}
+.cooperation-model .circle-boxA {
+  margin-top: 42px;
+}
+.cooperation-model .circle-boxA ul li {
+  float: left;
+  width: 202px;
+  height: 202px;
+  margin-right: 46px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.cooperation-model .circle-boxA ul li p {
+  color: #fff;
+}
+.cooperation-model .circle-boxA ul li > div {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.cooperation-model .circle-boxA ul li .boxA-wrap {
+  width: 202px;
+  height: 202px;
+}
+.cooperation-model .circle-boxA ul li .boxA-wrap .circle-boxA-content {
+  width: 100%;
+  height: 100%;
+  padding-top: 58px;
+  text-align: center;
+  font-size: 18px;
+}
+.cooperation-model .circle-boxA ul li .boxB-wrap {
+  width: 202px;
+  height: 202px;
+}
+.cooperation-model .circle-boxA ul li .boxB-wrap .circle-boxB-content {
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  text-align: center;
+  background-color: rgba(32, 54, 190, 0.6);
+  font-size: 16px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(1) .circle-boxA-content {
+  background: url("../images/01_service_default.png") no-repeat;
+}
+.cooperation-model .circle-boxA ul li:nth-child(1) .circle-boxA-content .circle-boxA-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -2px -41px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(1) .circle-boxB-content .circle-boxB-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -2px -105px;
+  margin-top: 24px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(2) .circle-boxA-content {
+  background: url("../images/02_service_default.png") no-repeat;
+}
+.cooperation-model .circle-boxA ul li:nth-child(2) .circle-boxA-content .circle-boxA-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -66px -41px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(2) .circle-boxB-content .circle-boxB-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -107px -105px;
+  margin-top: 24px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(3) .circle-boxA-content {
+  background: url("../images/03_service_default.png") no-repeat;
+}
+.cooperation-model .circle-boxA ul li:nth-child(3) .circle-boxA-content .circle-boxA-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -130px -41px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(3) .circle-boxB-content .circle-boxB-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -212px -105px;
+  margin-top: 24px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(4) .circle-boxA-content {
+  background: url("../images/04_service_default.png") no-repeat;
+}
+.cooperation-model .circle-boxA ul li:nth-child(4) .circle-boxA-content .circle-boxA-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -194px -41px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(4) .circle-boxB-content .circle-boxB-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -317px -105px;
+  margin-top: 24px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(5) {
+  margin-right: 0;
+}
+.cooperation-model .circle-boxA ul li:nth-child(5) .circle-boxA-content {
+  background: url("../images/05_service_default.png") no-repeat;
+}
+.cooperation-model .circle-boxA ul li:nth-child(5) .circle-boxA-content .circle-boxA-icon {
+  display: inline-block;
+  width: 42px;
+  height: 60px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -267px -41px;
+}
+.cooperation-model .circle-boxA ul li:nth-child(5) .circle-boxB-content .circle-boxB-icon {
+  display: inline-block;
+  width: 72px;
+  height: 100px;
+  background: url("../images/icon2.png") center no-repeat;
+  background-position: -438px -105px;
+  margin-top: 8px;
+}
+.func-ser {
+  width: 100%;
+  height: 880px;
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.func-ser .func-ser-title h2 {
+  font-size: 34px;
+}
+.func-ser .func-ser-title .func-ser-line {
+  margin: 0 auto;
+  display: block;
+  width: 555px;
+  height: 13px;
+  background: url("../images/icon.png") center no-repeat;
+  background-position: -2px -219px;
+  background-size: 559px 235px;
+  margin-top: 24px;
+}
+.func-ser .func-ser-content {
+  margin-top: 106px;
+  text-align: center;
+}
+.func-ser .func-ser-content .func-ser-box {
+  height: 300px;
+  padding: 0;
+}
+.func-ser .func-ser-content .func-ser-box h4 {
+  font-size: 24px;
+  margin: 20px 0 12px 0;
+  color: #000;
+}
+.func-ser .func-ser-content .func-ser-box p {
+  color: #999;
+  line-height: 24px;
+}
+.func-ser .func-ser-content .func-ser-box span {
+  display: inline-block;
+  background: url("../images/icon2.png") center no-repeat;
+  background-size: 945px 288px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-mobile-pay {
+  width: 21px;
+  height: 34px;
+  background-position: -10px -211px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-money-close {
+  width: 26px;
+  height: 34px;
+  background-position: -47px -211px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-product-center {
+  width: 30px;
+  height: 34px;
+  background-position: -85px -211px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-data-center {
+  width: 34px;
+  height: 34px;
+  background-position: -123px -213px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-commercial {
+  width: 34px;
+  height: 34px;
+  background-position: -4px -251px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-user-manager {
+  width: 36px;
+  height: 34px;
+  background-position: -42px -251px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-profit-manager {
+  width: 34px;
+  height: 34px;
+  background-position: -83px -251px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-profit-manager {
+  width: 34px;
+  height: 34px;
+  background-position: -83px -251px;
+}
+.func-ser .func-ser-content .func-ser-box .icon-deal-manager {
+  width: 34px;
+  height: 34px;
+  background-position: -123px -251px;
+}

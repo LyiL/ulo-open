@@ -1,0 +1,209 @@
+.header {
+  height: 60px;
+  background-color: #0a1e33;
+}
+.header .top-nav {
+  position: relative;
+}
+.header .top-nav .logo {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.header .top-nav .logo span {
+  color: #fff;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.header .top-nav .logo span:before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: #fff;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-left: 12px;
+}
+.header .top-nav .navbar {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.header .top-nav .navbar ul > li {
+  position: relative;
+  float: left;
+}
+.header .top-nav .navbar ul > li:hover a {
+  color: #39f;
+}
+.header .top-nav .navbar ul > li:nth-child(1) {
+  margin-right: 42px;
+}
+.header .top-nav .navbar ul > li:nth-child(2) {
+  margin-right: 53px;
+}
+.header .top-nav .navbar ul > li:nth-child(2) a {
+  height: 28px;
+}
+.header .top-nav .navbar ul > li:nth-child(3) {
+  margin-right: 48px;
+}
+.header .top-nav .navbar ul > li:nth-child(3) a {
+  height: 28px;
+}
+.header .top-nav .navbar ul > li:nth-child(4) {
+  margin-right: 48px;
+}
+.header .top-nav .navbar ul > li:nth-child(4) a {
+  height: 28px;
+}
+.header .top-nav .navbar ul > li:nth-child(5) a {
+  height: 28px;
+}
+.header .top-nav .navbar ul > li > a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+.header .top-nav .navbar ul > li > a i {
+  padding-left: 10px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA {
+  display: none;
+  position: absolute;
+  top: 28px;
+  right: -8px;
+  width: 100px;
+  height: 110px;
+  padding: 10px 12px 16px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA li:hover a {
+  color: #3399ff;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA li:hover a .icon-service {
+  display: inline-block;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -22px -2px;
+  background-size: 559px 235px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA li:hover a .icon-agent {
+  display: inline-block;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -22px -19px;
+  background-size: 559px 235px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA li:hover a .icon-bank-cooperation {
+  display: inline-block;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -22px -36px;
+  background-size: 559px 235px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA li:nth-child(2) {
+  margin: 14px 0;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA a .icon-service {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -2px -2px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA a .icon-agent {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -2px -19px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuA a .icon-bank-cooperation {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -2px -36px;
+  background-size: 559px 235px;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuB {
+  display: none;
+  position: absolute;
+  top: 28px;
+  right: -18px;
+  width: 138px;
+  height: 70px;
+  padding: 10px 10px 16px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuB li:first-child {
+  margin-bottom: 14px;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuB a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.header .top-nav .navbar ul > li .dropDown-MenuB a:hover {
+  color: #3399ff;
+}
+.header .top-nav .cooperate {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  width: 110px;
+  height: 60px;
+}
+.header .top-nav .cooperate > a {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #3b97ff;
+  border-radius: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.header .top-nav .cooperate .cooperate-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 110px;
+  height: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: 8px;
+}
+.header .top-nav .cooperate .cooperate-menu a {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #3b97ff;
+}
+.header .top-nav .cooperate .cooperate-menu a:hover {
+  background-color: #157cf1;
+}
