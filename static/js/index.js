@@ -49,7 +49,7 @@ $(function(){
         $(this).find('.qrcode-mask').stop().fadeOut();
     })
 
-    //联系我们在线客服动效
+    //联系我们在线客服功能
     $('.qq-inline').on({
 		mousedown: function(){
 			$(this).css({
@@ -60,39 +60,25 @@ $(function(){
 			$(this).css({
                 backgroundColor: '#1671f9'
 			});
-		}
+        },
+        click: function() {
+            var $a = document.createElement("a");
+            var key1 = 'http://wpa.qq.com/msgrd?v=3&uin=917382868&site=oicqzone.com&menu=yes';
+            var key2 = 'mqqwpa://im/chat?chat_type=wpa&uin=917382868&version=1&src_type=web&web_src=oicqzone.com';
+            $a.setAttribute('target', '_blank');
+            if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+                $a.setAttribute('href', key2);
+            } else {
+                $a.setAttribute('href', key1);
+            }
+            $a.click();
+        }
     })
+    
     
 })
 
-window.onload = function () {
- 
-    var as = $('.qq-inline-link');
- 
-    var kefu101 = "http://wpa.qq.com/msgrd?v=3&uin=3002933422&site=oicqzone.com&menu=yes";
-    var kefu102 = "mqqwpa://im/chat?chat_type=wpa&uin=3002933422&version=1&src_type=web&web_src=oicqzone.com";
- 
-    for (var i = 0, len = as.length; i < len; i++) {
- 
-        if (as[i].hasAttribute('data-qq')) {
- 
-            as[i].onclick = (function (i) {
- 
-                return function (e) {
- 
-                    var kefu = e.target ? e.target.getAttribute('data-qq') : e.srcElement.getAttribute('data-qq');
- 
-                    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) || /(Android)/i.test(navigator.userAgent)) {
- 
-                        window.open(kefu102);
-                    }else {
-                        window.open(kefu101);
-                    }
-                }
-            })(i);
-        }
-    }
-};
+    
 
 // 首页banner光圈效果
     var num = 200;
