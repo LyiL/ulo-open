@@ -63,8 +63,8 @@ $(function(){
         },
         click: function() {
             var $a = document.createElement("a");
-            var key1 = 'http://wpa.qq.com/msgrd?v=3&uin=917382868&site=oicqzone.com&menu=yes';
-            var key2 = 'mqqwpa://im/chat?chat_type=wpa&uin=917382868&version=1&src_type=web&web_src=oicqzone.com';
+            var key1 = 'http://wpa.qq.com/msgrd?v=3&uin=3002933422&site=oicqzone.com&menu=yes';
+            var key2 = 'mqqwpa://im/chat?chat_type=wpa&uin=3002933422&version=1&src_type=web&web_src=oicqzone.com';
             $a.setAttribute('target', '_blank');
             if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
                 $a.setAttribute('href', key2);
